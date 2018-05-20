@@ -181,6 +181,7 @@
 				14A9548520B170AE0090F9B5 /* Resources */,
 				3AD638A2306D2949F30C1A51 /* [CP] Embed Pods Frameworks */,
 				6168B78D0969C3BC4AE036C2 /* [CP] Copy Pods Resources */,
+				14A954BC20B171E90090F9B5 /* Swift Lint */,
 			);
 			buildRules = (
 			);
@@ -321,6 +322,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		14A954BC20B171E90090F9B5 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
 		1B79A8310B3DD582A3DFBEA4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
