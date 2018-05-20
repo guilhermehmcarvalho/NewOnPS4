@@ -1,0 +1,6 @@
+framework module Pods_PS4WeekReleasesTests {
+  umbrella header "Pods-PS4WeekReleasesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
