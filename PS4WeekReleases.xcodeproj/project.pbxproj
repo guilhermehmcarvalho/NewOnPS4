@@ -116,13 +116,11 @@
 		14A9548920B170AE0090F9B5 /* PS4WeekReleases */ = {
 			isa = PBXGroup;
 			children = (
-				14A9548A20B170AE0090F9B5 /* AppDelegate.swift */,
-				14A9548C20B170AE0090F9B5 /* ViewController.swift */,
-				14A9548E20B170AE0090F9B5 /* Main.storyboard */,
 				14A9549420B170AE0090F9B5 /* Assets.xcassets */,
-				14A9549620B170AE0090F9B5 /* LaunchScreen.storyboard */,
-				14A9549920B170AE0090F9B5 /* Info.plist */,
-				14A9549120B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld */,
+				14A954BE20B174710090F9B5 /* Classes */,
+				14A954C020B174A20090F9B5 /* Resources */,
+				14A954BD20B174570090F9B5 /* SupportingFiles */,
+				14A954BF20B174930090F9B5 /* View */,
 			);
 			path = PS4WeekReleases;
 			sourceTree = "<group>";
@@ -143,6 +141,40 @@
 				14A954AF20B170AE0090F9B5 /* Info.plist */,
 			);
 			path = PS4WeekReleasesUITests;
+			sourceTree = "<group>";
+		};
+		14A954BD20B174570090F9B5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				14A9549920B170AE0090F9B5 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		14A954BE20B174710090F9B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				14A9548A20B170AE0090F9B5 /* AppDelegate.swift */,
+				14A9548C20B170AE0090F9B5 /* ViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		14A954BF20B174930090F9B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14A9548E20B170AE0090F9B5 /* Main.storyboard */,
+				14A9549620B170AE0090F9B5 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14A954C020B174A20090F9B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14A9549120B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		F940D413F18D6C8F1A7581B9 /* Pods */ = {
