@@ -9,9 +9,7 @@
 import Foundation
 
 struct Game: Decodable {
-    
     let id: Int
     let name: String
     let summary: String
-    
 }
