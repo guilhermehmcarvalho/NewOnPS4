@@ -37,7 +37,8 @@ enum ReleaseDateApiRouter: URLRequestConvertible {
         
         // Headers
         urlRequest.setValue("application/json", forHTTPHeaderField: HTTPHeaderField.acceptType.rawValue)
-        urlRequest.setValue("1a79e2af1773ef1d63fa0af63ba2c596", forHTTPHeaderField: HTTPHeaderField.userKey.rawValue) //TODO: put key somewhere else
+        //TODO: put key somewhere else
+        urlRequest.setValue("1a79e2af1773ef1d63fa0af63ba2c596", forHTTPHeaderField: HTTPHeaderField.userKey.rawValue)
         
         // Parameters
         if let parameters = parameters {
@@ -47,10 +48,10 @@ enum ReleaseDateApiRouter: URLRequestConvertible {
                 throw AFError.parameterEncodingFailed(reason: .jsonEncodingFailed(error: error))
             }
         }
-        
+
         return urlRequest
     }
-    
+
     // MARK: - Parameters
     
     struct APIParameterKey {
@@ -62,7 +63,7 @@ enum ReleaseDateApiRouter: URLRequestConvertible {
     }
     
     private var parameters: Parameters? {
-        let params:Parameters? = [APIParameterKey.fields: "*",
+        let params: Parameters? = [APIParameterKey.fields: "*",
          APIParameterKey.platform: 48,
          APIParameterKey.order: "date:asc",
          APIParameterKey.filter: Date().millisecondsSince1970,
