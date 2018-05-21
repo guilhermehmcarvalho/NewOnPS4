@@ -16,6 +16,9 @@ class ApiService {
     let sessionManager: SessionManager = {
         let conf = URLSessionConfiguration.default
         
+        conf.timeoutIntervalForRequest = 5
+        conf.timeoutIntervalForResource = 5
+        
         return SessionManager(configuration: conf)
     }()
     

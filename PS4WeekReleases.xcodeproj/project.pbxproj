@@ -23,6 +23,7 @@
 		14A954D320B339FC0090F9B5 /* ReleaseDateApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D220B339FC0090F9B5 /* ReleaseDateApiRouter.swift */; };
 		14A954D520B33F7E0090F9B5 /* HTTPHeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D420B33F7E0090F9B5 /* HTTPHeaderField.swift */; };
 		14A954D720B342F60090F9B5 /* Date+Milisseconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D620B342F60090F9B5 /* Date+Milisseconds.swift */; };
+		14A954D920B34ADF0090F9B5 /* ReleaseDateApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */; };
 		1EF38320220D036F2C158FDF /* Pods_PS4WeekReleasesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */; };
 		33629A13415118ADDAD68497 /* Pods_PS4WeekReleasesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02D45561F47EE800C27712F /* Pods_PS4WeekReleasesTests.framework */; };
 		4A557C8678829A3A833EFE20 /* Pods_PS4WeekReleases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */; };
@@ -68,6 +69,7 @@
 		14A954D220B339FC0090F9B5 /* ReleaseDateApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateApiRouter.swift; sourceTree = "<group>"; };
 		14A954D420B33F7E0090F9B5 /* HTTPHeaderField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaderField.swift; sourceTree = "<group>"; };
 		14A954D620B342F60090F9B5 /* Date+Milisseconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Milisseconds.swift"; sourceTree = "<group>"; };
+		14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateApiService.swift; sourceTree = "<group>"; };
 		2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleasesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		738701A99639B6A1AA75EFC5 /* Pods-PS4WeekReleases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleases.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases.release.xcconfig"; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 			children = (
 				14A954CB20B338D50090F9B5 /* ApiService.swift */,
 				14A954D220B339FC0090F9B5 /* ReleaseDateApiRouter.swift */,
+				14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -576,6 +579,7 @@
 				14A954CF20B339400090F9B5 /* Bundle.swift in Sources */,
 				14A954D520B33F7E0090F9B5 /* HTTPHeaderField.swift in Sources */,
 				14A954C620B1C67B0090F9B5 /* ReleaseDate.swift in Sources */,
+				14A954D920B34ADF0090F9B5 /* ReleaseDateApiService.swift in Sources */,
 				14A9548D20B170AE0090F9B5 /* ViewController.swift in Sources */,
 				14A9548B20B170AE0090F9B5 /* AppDelegate.swift in Sources */,
 				14A954C420B1C5A50090F9B5 /* Game.swift in Sources */,

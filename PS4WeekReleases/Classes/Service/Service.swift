@@ -21,3 +21,8 @@ class Service<T: Decodable> {
     }
     
 }
+
+enum ServiceFailureType {
+    case connection
+    case server
+}

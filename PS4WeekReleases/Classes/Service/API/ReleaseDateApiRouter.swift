@@ -25,7 +25,7 @@ enum ReleaseDateApiRouter: URLRequestConvertible {
     
     private var path: String {
         switch self {
-        case .get: return "/release_dates/"
+        case .get: return "/release_dates"
         }
     }
     
@@ -63,6 +63,8 @@ enum ReleaseDateApiRouter: URLRequestConvertible {
     }
     
     private var parameters: Parameters? {
+        return [:]
+        
         let params: Parameters? = [APIParameterKey.fields: "*",
          APIParameterKey.platform: 48,
          APIParameterKey.order: "date:asc",
