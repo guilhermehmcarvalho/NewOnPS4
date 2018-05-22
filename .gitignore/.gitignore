@@ -1,6 +1,13 @@
-# Xcode
+# OS X
 #
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+[Tt]humbs.db
+.DS_Store
+profile
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
 
 ## Build generated
 build/
@@ -21,6 +28,7 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+PS4WeekReleases/Classes/Service/API/Constants.swift
 
 ## Obj-C/Swift specific
 *.hmap
@@ -46,7 +54,8 @@ playground.xcworkspace
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+ Pods/
+!Podfile.lock
 
 # Carthage
 #
