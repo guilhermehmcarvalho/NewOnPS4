@@ -19,6 +19,14 @@ class Service<T: Decodable> {
             return nil
         }
     }
+	
+	func jsonDecodeArray(data: Data) -> [T]? {
+		do {
+			return try JSONDecoder().decode([T].self, from: data)
+		} catch {
+			return nil
+		}
+	}
     
 }
 

@@ -9,8 +9,8 @@
 import Foundation
 
 struct ReleaseDate: Decodable {
-    let id: String
+    let id: Int
     let game: Game
-    let date: u_long // Timestamp in miliseconds
+    let date: Int // Timestamp in miliseconds
     let human: String // Human readable date
 }

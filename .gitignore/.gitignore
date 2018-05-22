@@ -28,6 +28,7 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+PS4WeekReleases/Classes/Service/API/Constants.swift
 
 ## Obj-C/Swift specific
 *.hmap
