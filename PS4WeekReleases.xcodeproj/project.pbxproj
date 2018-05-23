@@ -15,9 +15,21 @@
 		14A9549820B170AE0090F9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A9549620B170AE0090F9B5 /* LaunchScreen.storyboard */; };
 		14A954A320B170AE0090F9B5 /* PS4WeekReleasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954A220B170AE0090F9B5 /* PS4WeekReleasesTests.swift */; };
 		14A954AE20B170AE0090F9B5 /* PS4WeekReleasesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954AD20B170AE0090F9B5 /* PS4WeekReleasesUITests.swift */; };
+		14A954C420B1C5A50090F9B5 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954C320B1C5A50090F9B5 /* Game.swift */; };
+		14A954C620B1C67B0090F9B5 /* ReleaseDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954C520B1C67B0090F9B5 /* ReleaseDate.swift */; };
+		14A954C920B334960090F9B5 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954C820B334960090F9B5 /* Service.swift */; };
+		14A954CC20B338D50090F9B5 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954CB20B338D50090F9B5 /* ApiService.swift */; };
+		14A954CF20B339400090F9B5 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954CE20B339400090F9B5 /* Bundle.swift */; };
+		14A954D320B339FC0090F9B5 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D220B339FC0090F9B5 /* ApiRouter.swift */; };
+		14A954D520B33F7E0090F9B5 /* HTTPHeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D420B33F7E0090F9B5 /* HTTPHeaderField.swift */; };
+		14A954D720B342F60090F9B5 /* Date+Milisseconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D620B342F60090F9B5 /* Date+Milisseconds.swift */; };
+		14A954D920B34ADF0090F9B5 /* ReleaseDateApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */; };
 		1EF38320220D036F2C158FDF /* Pods_PS4WeekReleasesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */; };
 		33629A13415118ADDAD68497 /* Pods_PS4WeekReleasesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02D45561F47EE800C27712F /* Pods_PS4WeekReleasesTests.framework */; };
 		4A557C8678829A3A833EFE20 /* Pods_PS4WeekReleases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */; };
+		79B9173420B436E80065205C /* ReleaseDateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173320B436E80065205C /* ReleaseDateService.swift */; };
+		79B9173620B453F80065205C /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173520B453F80065205C /* Cover.swift */; };
+		79B9173820B456B90065205C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173720B456B90065205C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +64,22 @@
 		14A954A920B170AE0090F9B5 /* PS4WeekReleasesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PS4WeekReleasesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A954AD20B170AE0090F9B5 /* PS4WeekReleasesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PS4WeekReleasesUITests.swift; sourceTree = "<group>"; };
 		14A954AF20B170AE0090F9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A954C320B1C5A50090F9B5 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		14A954C520B1C67B0090F9B5 /* ReleaseDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDate.swift; sourceTree = "<group>"; };
+		14A954C820B334960090F9B5 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		14A954CB20B338D50090F9B5 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		14A954CE20B339400090F9B5 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		14A954D220B339FC0090F9B5 /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		14A954D420B33F7E0090F9B5 /* HTTPHeaderField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaderField.swift; sourceTree = "<group>"; };
+		14A954D620B342F60090F9B5 /* Date+Milisseconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Milisseconds.swift"; sourceTree = "<group>"; };
+		14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateApiService.swift; sourceTree = "<group>"; };
 		2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleasesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		738701A99639B6A1AA75EFC5 /* Pods-PS4WeekReleases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleases.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases.release.xcconfig"; sourceTree = "<group>"; };
 		77D3BD06D789E84DE8504810 /* Pods-PS4WeekReleases.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleases.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases.debug.xcconfig"; sourceTree = "<group>"; };
+		79B9173320B436E80065205C /* ReleaseDateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateService.swift; sourceTree = "<group>"; };
+		79B9173520B453F80065205C /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
+		79B9173720B456B90065205C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		90BBDF5CC1D7F2E4D843ABB6 /* Pods-PS4WeekReleasesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4EDD68EE172A3E8B76C596F /* Pods-PS4WeekReleasesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests.release.xcconfig"; sourceTree = "<group>"; };
 		B033B0A34F643B7D8FBFB85E /* Pods-PS4WeekReleasesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,13 +140,11 @@
 		14A9548920B170AE0090F9B5 /* PS4WeekReleases */ = {
 			isa = PBXGroup;
 			children = (
-				14A9548A20B170AE0090F9B5 /* AppDelegate.swift */,
-				14A9548C20B170AE0090F9B5 /* ViewController.swift */,
-				14A9548E20B170AE0090F9B5 /* Main.storyboard */,
 				14A9549420B170AE0090F9B5 /* Assets.xcassets */,
-				14A9549620B170AE0090F9B5 /* LaunchScreen.storyboard */,
-				14A9549920B170AE0090F9B5 /* Info.plist */,
-				14A9549120B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld */,
+				14A954C720B334500090F9B5 /* View */,
+				14A954BE20B174710090F9B5 /* Classes */,
+				14A954C020B174A20090F9B5 /* Resources */,
+				14A954BD20B174570090F9B5 /* SupportingFiles */,
 			);
 			path = PS4WeekReleases;
 			sourceTree = "<group>";
@@ -143,6 +165,92 @@
 				14A954AF20B170AE0090F9B5 /* Info.plist */,
 			);
 			path = PS4WeekReleasesUITests;
+			sourceTree = "<group>";
+		};
+		14A954BD20B174570090F9B5 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				14A9549920B170AE0090F9B5 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		14A954BE20B174710090F9B5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				14A9548A20B170AE0090F9B5 /* AppDelegate.swift */,
+				14A954BF20B174930090F9B5 /* Controller */,
+				14A954CD20B339330090F9B5 /* Helper */,
+				14A954C120B1C5580090F9B5 /* Model */,
+				14A954C220B1C56B0090F9B5 /* Service */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		14A954BF20B174930090F9B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14A9548C20B170AE0090F9B5 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14A954C020B174A20090F9B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14A9549120B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		14A954C120B1C5580090F9B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14A954C320B1C5A50090F9B5 /* Game.swift */,
+				14A954C520B1C67B0090F9B5 /* ReleaseDate.swift */,
+				79B9173520B453F80065205C /* Cover.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14A954C220B1C56B0090F9B5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				14A954CA20B338A50090F9B5 /* API */,
+				14A954C820B334960090F9B5 /* Service.swift */,
+				14A954D420B33F7E0090F9B5 /* HTTPHeaderField.swift */,
+				79B9173320B436E80065205C /* ReleaseDateService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		14A954C720B334500090F9B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14A9548E20B170AE0090F9B5 /* Main.storyboard */,
+				14A9549620B170AE0090F9B5 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14A954CA20B338A50090F9B5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				14A954CB20B338D50090F9B5 /* ApiService.swift */,
+				14A954D220B339FC0090F9B5 /* ApiRouter.swift */,
+				14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */,
+				79B9173720B456B90065205C /* Constants.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		14A954CD20B339330090F9B5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				14A954CE20B339400090F9B5 /* Bundle.swift */,
+				14A954D620B342F60090F9B5 /* Date+Milisseconds.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		F940D413F18D6C8F1A7581B9 /* Pods */ = {
@@ -180,7 +288,6 @@
 				14A9548420B170AE0090F9B5 /* Frameworks */,
 				14A9548520B170AE0090F9B5 /* Resources */,
 				3AD638A2306D2949F30C1A51 /* [CP] Embed Pods Frameworks */,
-				6168B78D0969C3BC4AE036C2 /* [CP] Copy Pods Resources */,
 				14A954BC20B171E90090F9B5 /* Swift Lint */,
 			);
 			buildRules = (
@@ -200,8 +307,6 @@
 				14A9549A20B170AE0090F9B5 /* Sources */,
 				14A9549B20B170AE0090F9B5 /* Frameworks */,
 				14A9549C20B170AE0090F9B5 /* Resources */,
-				9559A00F44F6CC87D86BC61B /* [CP] Embed Pods Frameworks */,
-				145BB84B1D51A458F3735224 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,8 +326,6 @@
 				14A954A520B170AE0090F9B5 /* Sources */,
 				14A954A620B170AE0090F9B5 /* Frameworks */,
 				14A954A720B170AE0090F9B5 /* Resources */,
-				B091B0779D915B5ED50B0405 /* [CP] Embed Pods Frameworks */,
-				1B79A8310B3DD582A3DFBEA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,21 +411,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		145BB84B1D51A458F3735224 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		14A954BC20B171E90090F9B5 /* Swift Lint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -336,21 +424,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
-		1B79A8310B3DD582A3DFBEA4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		3AD638A2306D2949F30C1A51 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -368,51 +441,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6168B78D0969C3BC4AE036C2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9559A00F44F6CC87D86BC61B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B091B0779D915B5ED50B0405 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD48C81F70BF2BB06A80D904 /* [CP] Check Pods Manifest.lock */ = {
@@ -477,8 +505,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A9549320B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld in Sources */,
+				14A954CF20B339400090F9B5 /* Bundle.swift in Sources */,
+				14A954D520B33F7E0090F9B5 /* HTTPHeaderField.swift in Sources */,
+				14A954C620B1C67B0090F9B5 /* ReleaseDate.swift in Sources */,
+				79B9173820B456B90065205C /* Constants.swift in Sources */,
+				14A954D920B34ADF0090F9B5 /* ReleaseDateApiService.swift in Sources */,
 				14A9548D20B170AE0090F9B5 /* ViewController.swift in Sources */,
 				14A9548B20B170AE0090F9B5 /* AppDelegate.swift in Sources */,
+				14A954C420B1C5A50090F9B5 /* Game.swift in Sources */,
+				79B9173420B436E80065205C /* ReleaseDateService.swift in Sources */,
+				14A954CC20B338D50090F9B5 /* ApiService.swift in Sources */,
+				14A954D720B342F60090F9B5 /* Date+Milisseconds.swift in Sources */,
+				79B9173620B453F80065205C /* Cover.swift in Sources */,
+				14A954D320B339FC0090F9B5 /* ApiRouter.swift in Sources */,
+				14A954C920B334960090F9B5 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,7 +687,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XQLTE359NY;
-				INFOPLIST_FILE = PS4WeekReleases/Info.plist;
+				INFOPLIST_FILE = PS4WeekReleases/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.gcarvalho.PS4WeekReleases;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -663,7 +703,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XQLTE359NY;
-				INFOPLIST_FILE = PS4WeekReleases/Info.plist;
+				INFOPLIST_FILE = PS4WeekReleases/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.gcarvalho.PS4WeekReleases;
 				PRODUCT_NAME = "$(TARGET_NAME)";
