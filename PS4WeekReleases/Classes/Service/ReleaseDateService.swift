@@ -19,8 +19,8 @@ class ReleaseDateService: Service<ReleaseDate> {
 	// MARK: - Public
 	
 	func getPlaystationWeek() {
-		let nextSundayMilliseconds = Date.today().next(.sunday).millisecondsSince1970
-		let lastSundayMilliseconds = Date.today().previous(.sunday).millisecondsSince1970
+		let nextSundayMilliseconds = Date.today().next(.wednesday).millisecondsSince1970
+		let lastSundayMilliseconds = Date.today().previous(.wednesday).millisecondsSince1970
 		
 		if let fetchedData = dbFetch(dateGreater: lastSundayMilliseconds, dateSmaller: nextSundayMilliseconds) {
 			DispatchQueue.main.async {
