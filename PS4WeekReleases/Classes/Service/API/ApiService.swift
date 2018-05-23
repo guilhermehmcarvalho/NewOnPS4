@@ -24,6 +24,6 @@ class ApiService {
     
     struct Params {
         static let baseUrl = URL(string: Bundle.main.apiBaseUrl())!
-		static let timeout:Double = 15
+		static let timeout: Double = 15
     }
 }

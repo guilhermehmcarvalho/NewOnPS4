@@ -22,13 +22,13 @@ class ReleaseDateServiceTest: APIServiceTest {
 	
 	// MARK: - Test
 	
-	func testGetPlayestationWeek(){
+	func testGetPlayestationWeek() {
 		releaseDateService.getPlaystationWeek()
 		waitForExpectations(timeout: ApiService.Params.timeout, handler: nil)
 	}
 }
 
-extension ReleaseDateServiceTest : ReleaseDateServiceDelegate {
+extension ReleaseDateServiceTest: ReleaseDateServiceDelegate {
 	
 	func getPlaystationWeekDidComplete(failure: ServiceFailureType) {
 		self.failure(failure)

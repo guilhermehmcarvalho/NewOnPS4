@@ -14,7 +14,7 @@ class ReleaseDateService: Service<ReleaseDate> {
 	
 	private let apiService = ReleaseDateApiService()
 	private let dataCache = WeekSearchStoreManager()
-	public var delegate:ReleaseDateServiceDelegate?
+	weak public var delegate: ReleaseDateServiceDelegate?
 	
 	// MARK: - Public
 	
@@ -37,7 +37,7 @@ class ReleaseDateService: Service<ReleaseDate> {
 	
 	// MARK: - Private
 	
-	private func success(data: Data, dateGreater:Double?, dateSmaller: Double?) {
+	private func success(data: Data, dateGreater: Double?, dateSmaller: Double?) {
 		DispatchQueue.main.async {
 			if let releaseDates = self.jsonDecodeArray(data: data) {
 				self.delegate?.getPlaystationWeekDidComplete(releaseDates: releaseDates)

@@ -15,13 +15,13 @@ extension Date {
 	}
 	
 	func next(_ weekday: Weekday, considerToday: Bool = false) -> Date {
-		return get(.Next,
+		return get(.next,
 				   weekday,
 				   considerToday: considerToday)
 	}
 	
 	func previous(_ weekday: Weekday, considerToday: Bool = false) -> Date {
-		return get(.Previous,
+		return get(.previous,
 				   weekday,
 				   considerToday: considerToday)
 	}
@@ -47,7 +47,6 @@ extension Date {
 		var nextDateComponent = DateComponents()
 		nextDateComponent.weekday = searchWeekdayIndex
 		
-		
 		let date = calendar.nextDate(after: self,
 									 matching: nextDateComponent,
 									 matchingPolicy: .nextTime,
@@ -71,14 +70,14 @@ extension Date {
 	}
 	
 	enum SearchDirection {
-		case Next
-		case Previous
+		case next
+		case previous
 		
 		var calendarSearchDirection: Calendar.SearchDirection {
 			switch self {
-			case .Next:
+			case .next:
 				return .forward
-			case .Previous:
+			case .previous:
 				return .backward
 			}
 		}

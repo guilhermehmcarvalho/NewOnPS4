@@ -42,8 +42,8 @@ class WeekSearchStoreManager : NSObject {
 		save()
 	}
 	
-	func fetch(dateGreater:Double, dateSmaller:Double) -> WeekSearchData? {
-		let request:NSFetchRequest<WeekSearchData> = WeekSearchData.fetchRequest()
+	func fetch(dateGreater: Double, dateSmaller: Double) -> WeekSearchData? {
+		let request: NSFetchRequest<WeekSearchData> = WeekSearchData.fetchRequest()
 		request.fetchLimit = 1
 		request.predicate = NSPredicate(format: "dateGreater = \(dateGreater)")
 		request.predicate = NSPredicate(format: "dateSmaller = ", dateSmaller)
@@ -53,12 +53,12 @@ class WeekSearchStoreManager : NSObject {
 	}
 	
 	func fetchAll() -> [WeekSearchData] {
-		let request:NSFetchRequest<WeekSearchData> = WeekSearchData.fetchRequest()
+		let request: NSFetchRequest<WeekSearchData> = WeekSearchData.fetchRequest()
 		let results = try? backgroundContext.fetch(request)
 		return results ?? [WeekSearchData]()
 	}
 	
-	func remove(objectID:NSManagedObjectID){
+	func remove(objectID: NSManagedObjectID) {
 		let obj = backgroundContext.object(with: objectID)
 		backgroundContext.delete(obj)
 	}
@@ -67,8 +67,7 @@ class WeekSearchStoreManager : NSObject {
 		if backgroundContext.hasChanges {
 			do {
 				try backgroundContext.save()
-			}
-			catch {
+			} catch {
 				print ("Save error \(error)")
 			}
 		}

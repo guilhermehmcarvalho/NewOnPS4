@@ -30,7 +30,7 @@ class ReleaseDateApiServiceTest: APIServiceTest {
 	
 	private func get(dateGreater: Double? = nil, dateSmaller: Double? = nil, platform:Int? = nil, order: String? = nil) {
 		service.get(dateGreater: dateGreater, dateSmaller: dateSmaller, platform: platform, order: order,
-		success: { data in
+		success: { data, _, _ in
 			do {
 				_ = try JSONDecoder().decode([ReleaseDate].self, from: data)
 				self.success()

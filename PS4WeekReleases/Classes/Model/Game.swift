@@ -12,5 +12,5 @@ struct Game: Decodable {
     let id: Int
     let name: String
     let summary: String?
-	let cover:Cover?
+	let cover: Cover?
 }

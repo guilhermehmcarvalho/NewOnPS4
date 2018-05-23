@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143D97AB20B5C51200152BC5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D97AA20B5C51200152BC5 /* Constants.swift */; };
 		14A9548B20B170AE0090F9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9548A20B170AE0090F9B5 /* AppDelegate.swift */; };
 		14A9548D20B170AE0090F9B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9548C20B170AE0090F9B5 /* ViewController.swift */; };
 		14A9549020B170AE0090F9B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A9548E20B170AE0090F9B5 /* Main.storyboard */; };
@@ -33,7 +34,6 @@
 		799E559D20B5A777005671EC /* WeekSearchStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559C20B5A777005671EC /* WeekSearchStoreManager.swift */; };
 		79B9173420B436E80065205C /* ReleaseDateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173320B436E80065205C /* ReleaseDateService.swift */; };
 		79B9173620B453F80065205C /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173520B453F80065205C /* Cover.swift */; };
-		79B9173820B456B90065205C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173720B456B90065205C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		143D97AA20B5C51200152BC5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		14A9548720B170AE0090F9B5 /* PS4WeekReleases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PS4WeekReleases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A9548A20B170AE0090F9B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14A9548C20B170AE0090F9B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,7 +89,6 @@
 		799E559C20B5A777005671EC /* WeekSearchStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSearchStoreManager.swift; sourceTree = "<group>"; };
 		79B9173320B436E80065205C /* ReleaseDateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateService.swift; sourceTree = "<group>"; };
 		79B9173520B453F80065205C /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
-		79B9173720B456B90065205C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		90BBDF5CC1D7F2E4D843ABB6 /* Pods-PS4WeekReleasesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4EDD68EE172A3E8B76C596F /* Pods-PS4WeekReleasesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests.release.xcconfig"; sourceTree = "<group>"; };
 		B033B0A34F643B7D8FBFB85E /* Pods-PS4WeekReleasesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -249,7 +249,7 @@
 				14A954CB20B338D50090F9B5 /* ApiService.swift */,
 				14A954D220B339FC0090F9B5 /* ApiRouter.swift */,
 				14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */,
-				79B9173720B456B90065205C /* Constants.swift */,
+				143D97AA20B5C51200152BC5 /* Constants.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -544,11 +544,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				799E559A20B595B4005671EC /* Date+Day.swift in Sources */,
+				143D97AB20B5C51200152BC5 /* Constants.swift in Sources */,
 				14A9549320B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld in Sources */,
 				14A954CF20B339400090F9B5 /* Bundle.swift in Sources */,
 				14A954D520B33F7E0090F9B5 /* HTTPHeaderField.swift in Sources */,
 				14A954C620B1C67B0090F9B5 /* ReleaseDate.swift in Sources */,
-				79B9173820B456B90065205C /* Constants.swift in Sources */,
 				14A954D920B34ADF0090F9B5 /* ReleaseDateApiService.swift in Sources */,
 				14A9548D20B170AE0090F9B5 /* ViewController.swift in Sources */,
 				14A9548B20B170AE0090F9B5 /* AppDelegate.swift in Sources */,
