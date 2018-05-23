@@ -53,7 +53,8 @@ class ReleaseDateApiService: ApiService {
 	
 	private func parameters(timestamp: Int? = nil, platform: Int? = nil, order: String? = nil) -> Dictionary<String, Any> {
 		var params: Parameters = [APIParameterKey.fields: "*",
-								   APIParameterKey.expand: "game"
+								   APIParameterKey.expand: "game",
+								   APIParameterKey.order: "date:asc"
 		]
 		
 		if let timestamp = timestamp {

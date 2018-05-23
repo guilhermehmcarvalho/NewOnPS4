@@ -14,7 +14,9 @@ class ApiService {
     // MARK: - Variable
     
     let sessionManager: SessionManager = {
-        let conf = URLSessionConfiguration.default        
+        let conf = URLSessionConfiguration.default
+		conf.timeoutIntervalForRequest = Params.timeout
+		conf.timeoutIntervalForResource = Params.timeout
         return SessionManager(configuration: conf)
     }()
     
@@ -22,5 +24,6 @@ class ApiService {
     
     struct Params {
         static let baseUrl = URL(string: Bundle.main.apiBaseUrl())!
+		static let timeout:Double = 15
     }
 }
