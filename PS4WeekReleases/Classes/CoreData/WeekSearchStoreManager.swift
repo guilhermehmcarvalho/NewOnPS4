@@ -33,15 +33,29 @@ class WeekSearchStoreManager : NSObject {
 	//MARK: CRUD
 	//Create Retrieve Update Data
 	
-	func insertReleaseDate(dateBigger:Double, dateSmaller:Double, data:Data) {
-		NSEntityDescription.insertNewObject(forEntityName: "WeekSearchData", into: backgroundContext)
+	func insertReleaseDate(dateGreater:Double, dateSmaller:Double, data:Data) {
+		guard let entity = NSEntityDescription.insertNewObject(forEntityName: "WeekSearchData", into: backgroundContext)
+			as? WeekSearchData else { return }
+		entity.dateGreater = dateGreater
+		entity.dateSmaller = dateSmaller
+		entity.data = data
 		save()
 	}
 	
-	func fetch(dateBigger:Double, dateSmaller:Double) -> WeekSearchData? {
+	func fetch(dateGreater:Double, dateSmaller:Double) -> WeekSearchData? {
 		let request:NSFetchRequest<WeekSearchData> = WeekSearchData.fetchRequest()
+		request.fetchLimit = 1
+		request.predicate = NSPredicate(format: "dateGreater = \(dateGreater)")
+		request.predicate = NSPredicate(format: "dateSmaller = ", dateSmaller)
+		
 		let results = try? backgroundContext.fetch(request)
 		return results?.first
+	}
+	
+	func fetchAll() -> [WeekSearchData] {
+		let request:NSFetchRequest<WeekSearchData> = WeekSearchData.fetchRequest()
+		let results = try? backgroundContext.fetch(request)
+		return results ?? [WeekSearchData]()
 	}
 	
 	func remove(objectID:NSManagedObjectID){

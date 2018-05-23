@@ -187,9 +187,9 @@
 		14A954BE20B174710090F9B5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				799E559B20B5A756005671EC /* CoreData */,
 				14A9548A20B170AE0090F9B5 /* AppDelegate.swift */,
 				14A954BF20B174930090F9B5 /* Controller */,
+				799E559B20B5A756005671EC /* CoreData */,
 				14A954CD20B339330090F9B5 /* Helper */,
 				14A954C120B1C5580090F9B5 /* Model */,
 				14A954C220B1C56B0090F9B5 /* Service */,

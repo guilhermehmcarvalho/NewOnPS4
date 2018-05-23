@@ -14,7 +14,7 @@ class ReleaseDateApiService: ApiService {
 	// MARK: - Public
     
 	func get(dateGreater: Double? = nil, dateSmaller: Double? = nil, platform:Int? = nil, order: String? = nil,
-			 success: @escaping (Data) -> Void,
+			 success: @escaping (Data,Double?,Double?) -> Void,
              failure: @escaping (ServiceFailureType) -> Void) {
         
 		_ = self.sessionManager.request(
@@ -38,7 +38,7 @@ class ReleaseDateApiService: ApiService {
                     return
                 }
                 
-                success(data)
+                success(data, dateGreater, dateSmaller)
         }
     }
 	
