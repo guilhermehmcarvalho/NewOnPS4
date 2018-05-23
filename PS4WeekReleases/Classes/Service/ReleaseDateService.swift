@@ -18,7 +18,9 @@ class ReleaseDateService: Service<ReleaseDate> {
 	// MARK: - Public
 	
 	func getPlaystationWeek() {
-		apiService.get(timestamp: Date().millisecondsSince1970,
+		let nextSundayMilliseconds = Date.today().next(.sunday).millisecondsSince1970
+		let lastSundayMilliseconds = Date.today().previous(.sunday).millisecondsSince1970
+		apiService.get(dateGreater: lastSundayMilliseconds, dateSmaller: nextSundayMilliseconds,
 				 platform: 48,
 				 order: "date:asc",
 				 success: success, failure: failure)

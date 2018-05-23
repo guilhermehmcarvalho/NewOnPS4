@@ -29,6 +29,7 @@
 		799E559320B574B7005671EC /* APIServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559220B574B7005671EC /* APIServiceTest.swift */; };
 		799E559520B5767C005671EC /* ReleaseDateServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559420B5767C005671EC /* ReleaseDateServiceTest.swift */; };
 		799E559820B57DEC005671EC /* ReleaseDateApiServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559720B57DEC005671EC /* ReleaseDateApiServiceTest.swift */; };
+		799E559A20B595B4005671EC /* Date+Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559920B595B4005671EC /* Date+Day.swift */; };
 		79B9173420B436E80065205C /* ReleaseDateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173320B436E80065205C /* ReleaseDateService.swift */; };
 		79B9173620B453F80065205C /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173520B453F80065205C /* Cover.swift */; };
 		79B9173820B456B90065205C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173720B456B90065205C /* Constants.swift */; };
@@ -82,6 +83,7 @@
 		799E559420B5767C005671EC /* ReleaseDateServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateServiceTest.swift; sourceTree = "<group>"; };
 		799E559620B57884005671EC /* PS4WeekReleasesTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PS4WeekReleasesTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		799E559720B57DEC005671EC /* ReleaseDateApiServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateApiServiceTest.swift; sourceTree = "<group>"; };
+		799E559920B595B4005671EC /* Date+Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Day.swift"; sourceTree = "<group>"; };
 		79B9173320B436E80065205C /* ReleaseDateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateService.swift; sourceTree = "<group>"; };
 		79B9173520B453F80065205C /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
 		79B9173720B456B90065205C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 			children = (
 				14A954CE20B339400090F9B5 /* Bundle.swift */,
 				14A954D620B342F60090F9B5 /* Date+Milisseconds.swift */,
+				799E559920B595B4005671EC /* Date+Day.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -529,6 +532,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799E559A20B595B4005671EC /* Date+Day.swift in Sources */,
 				14A9549320B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld in Sources */,
 				14A954CF20B339400090F9B5 /* Bundle.swift in Sources */,
 				14A954D520B33F7E0090F9B5 /* HTTPHeaderField.swift in Sources */,

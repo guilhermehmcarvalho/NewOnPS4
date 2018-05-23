@@ -13,12 +13,13 @@ class ReleaseDateApiService: ApiService {
 	
 	// MARK: - Public
     
-	func get(timestamp: Int? = nil, platform:Int? = nil, order: String? = nil,
+	func get(dateGreater: Double? = nil, dateSmaller: Double? = nil, platform:Int? = nil, order: String? = nil,
 			 success: @escaping (Data) -> Void,
              failure: @escaping (ServiceFailureType) -> Void) {
         
 		_ = self.sessionManager.request(
-			ApiRouter.releaseDate(params: parameters(timestamp: timestamp, platform: platform, order: order)))
+			ApiRouter.releaseDate(params: parameters(dateGreater: dateGreater, dateSmaller: dateSmaller,
+													 platform: platform, order: order)))
             .validate(statusCode: [200])
             .responseJSON { response in
 				
@@ -47,18 +48,23 @@ class ReleaseDateApiService: ApiService {
 		static let fields = "fields"
 		static let platform = "filter[platform][eq]"
 		static let order = "order"
-		static let timestamp = "filter[date][gt]"
+		static let dateGreater = "filter[date][gte]"
+		static let dateSmaller = "filter[date][lt]"
 		static let expand = "expand"
 	}
 	
-	private func parameters(timestamp: Int? = nil, platform: Int? = nil, order: String? = nil) -> Dictionary<String, Any> {
+	private func parameters(dateGreater: Double? = nil, dateSmaller: Double? = nil, platform: Int? = nil, order: String? = nil) -> Dictionary<String, Any> {
 		var params: Parameters = [APIParameterKey.fields: "*",
 								   APIParameterKey.expand: "game",
 								   APIParameterKey.order: "date:asc"
 		]
 		
-		if let timestamp = timestamp {
-			params[APIParameterKey.timestamp] = timestamp
+		if let dateGreater = dateGreater {
+			params[APIParameterKey.dateGreater] = dateGreater
+		}
+		
+		if let dateSmaller = dateSmaller {
+			params[APIParameterKey.dateSmaller] = dateSmaller
 		}
 		
 		if let platform = platform {
