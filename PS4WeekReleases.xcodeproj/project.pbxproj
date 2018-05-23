@@ -30,6 +30,7 @@
 		799E559520B5767C005671EC /* ReleaseDateServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559420B5767C005671EC /* ReleaseDateServiceTest.swift */; };
 		799E559820B57DEC005671EC /* ReleaseDateApiServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559720B57DEC005671EC /* ReleaseDateApiServiceTest.swift */; };
 		799E559A20B595B4005671EC /* Date+Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559920B595B4005671EC /* Date+Day.swift */; };
+		799E559D20B5A777005671EC /* WeekSearchStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559C20B5A777005671EC /* WeekSearchStoreManager.swift */; };
 		79B9173420B436E80065205C /* ReleaseDateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173320B436E80065205C /* ReleaseDateService.swift */; };
 		79B9173620B453F80065205C /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173520B453F80065205C /* Cover.swift */; };
 		79B9173820B456B90065205C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173720B456B90065205C /* Constants.swift */; };
@@ -84,6 +85,7 @@
 		799E559620B57884005671EC /* PS4WeekReleasesTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PS4WeekReleasesTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		799E559720B57DEC005671EC /* ReleaseDateApiServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateApiServiceTest.swift; sourceTree = "<group>"; };
 		799E559920B595B4005671EC /* Date+Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Day.swift"; sourceTree = "<group>"; };
+		799E559C20B5A777005671EC /* WeekSearchStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSearchStoreManager.swift; sourceTree = "<group>"; };
 		79B9173320B436E80065205C /* ReleaseDateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateService.swift; sourceTree = "<group>"; };
 		79B9173520B453F80065205C /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
 		79B9173720B456B90065205C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 		14A954BE20B174710090F9B5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				799E559B20B5A756005671EC /* CoreData */,
 				14A9548A20B170AE0090F9B5 /* AppDelegate.swift */,
 				14A954BF20B174930090F9B5 /* Controller */,
 				14A954CD20B339330090F9B5 /* Helper */,
@@ -278,6 +281,14 @@
 				799E559720B57DEC005671EC /* ReleaseDateApiServiceTest.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		799E559B20B5A756005671EC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				799E559C20B5A777005671EC /* WeekSearchStoreManager.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		F940D413F18D6C8F1A7581B9 /* Pods */ = {
@@ -544,6 +555,7 @@
 				14A954C420B1C5A50090F9B5 /* Game.swift in Sources */,
 				79B9173420B436E80065205C /* ReleaseDateService.swift in Sources */,
 				14A954CC20B338D50090F9B5 /* ApiService.swift in Sources */,
+				799E559D20B5A777005671EC /* WeekSearchStoreManager.swift in Sources */,
 				14A954D720B342F60090F9B5 /* Date+Milisseconds.swift in Sources */,
 				79B9173620B453F80065205C /* Cover.swift in Sources */,
 				14A954D320B339FC0090F9B5 /* ApiRouter.swift in Sources */,
