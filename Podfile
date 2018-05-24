@@ -7,6 +7,7 @@ target 'PS4WeekReleases' do
 
   # Pods for PS4WeekReleases
   pod 'Alamofire', '~> 4.6.0'
+  pod 'VegaScrollFlowLayout', '~> 1.1'
 
   target 'PS4WeekReleasesTests' do
     inherit! :search_paths

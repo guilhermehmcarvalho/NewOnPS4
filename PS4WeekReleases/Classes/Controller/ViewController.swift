@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController : ReleaseDateServiceDelegate {
+extension ViewController: ReleaseDateServiceDelegate {
 	func getPlaystationWeekDidComplete(releaseDates: [ReleaseDate]) {
 		print(releaseDates)
 	}

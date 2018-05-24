@@ -9,8 +9,13 @@
 import Foundation
 
 struct ReleaseDate: Decodable {
-    let id: Int
+    let releaseID: Int
     let game: Game
-    let date: Int // Timestamp in miliseconds
+    let date: Double // Timestamp in miliseconds
     let human: String // Human readable date
+
+    enum CodingKeys: String, CodingKey {
+        case releaseID = "id"
+        case game, date, human
+    }
 }

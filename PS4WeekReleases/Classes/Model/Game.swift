@@ -9,8 +9,14 @@
 import Foundation
 
 struct Game: Decodable {
-    let id: Int
+    let gameID: Int
     let name: String
     let summary: String?
-	let cover:Cover?
+	let cover: Cover?
+
+    enum CodingKeys: String, CodingKey {
+        case gameID = "id"
+        case name, summary, cover
+    }
+
 }

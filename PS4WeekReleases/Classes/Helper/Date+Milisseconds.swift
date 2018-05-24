@@ -9,8 +9,8 @@
 import Foundation
 
 extension Date {
-    var millisecondsSince1970: Int {
-        return Int((self.timeIntervalSince1970 * 1000.0).rounded())
+    var millisecondsSince1970: Double {
+        return Double((self.timeIntervalSince1970 * 1000.0).rounded())
     }
     
     init(milliseconds: Int) {
