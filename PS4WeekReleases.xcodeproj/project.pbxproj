@@ -327,6 +327,7 @@
 				14A9548520B170AE0090F9B5 /* Resources */,
 				3AD638A2306D2949F30C1A51 /* [CP] Embed Pods Frameworks */,
 				14A954BC20B171E90090F9B5 /* Swift Lint */,
+				7E254C2607A85EF90423C262 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,6 +346,8 @@
 				14A9549A20B170AE0090F9B5 /* Sources */,
 				14A9549B20B170AE0090F9B5 /* Frameworks */,
 				14A9549C20B170AE0090F9B5 /* Resources */,
+				9F575E605438AB86A1B196A8 /* [CP] Embed Pods Frameworks */,
+				4D4A164778C8ED2FC89E69EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -364,6 +367,8 @@
 				14A954A520B170AE0090F9B5 /* Sources */,
 				14A954A620B170AE0090F9B5 /* Frameworks */,
 				14A954A720B170AE0090F9B5 /* Resources */,
+				0C4E431A6F7CAF56398ADE93 /* [CP] Embed Pods Frameworks */,
+				E42520231FC1AF95E7CA1941 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -450,6 +455,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0C4E431A6F7CAF56398ADE93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		14A954BC20B171E90090F9B5 /* Swift Lint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -472,14 +492,61 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/VegaScrollFlowLayout/VegaScrollFlowLayout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VegaScrollFlowLayout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D4A164778C8ED2FC89E69EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E254C2607A85EF90423C262 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F575E605438AB86A1B196A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD48C81F70BF2BB06A80D904 /* [CP] Check Pods Manifest.lock */ = {
@@ -534,6 +601,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42520231FC1AF95E7CA1941 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
