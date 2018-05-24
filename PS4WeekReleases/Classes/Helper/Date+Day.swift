@@ -26,9 +26,7 @@ extension Date {
 				   considerToday: considerToday)
 	}
 	
-	func get(_ direction: SearchDirection,
-			 _ weekDay: Weekday,
-			 considerToday consider: Bool = false) -> Date {
+	func get(_ direction: SearchDirection, _ weekDay: Weekday, considerToday consider: Bool = false) -> Date {
 		
 		let dayName = weekDay.rawValue
 		

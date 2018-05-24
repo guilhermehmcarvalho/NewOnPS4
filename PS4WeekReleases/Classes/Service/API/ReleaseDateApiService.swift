@@ -13,9 +13,10 @@ class ReleaseDateApiService: ApiService {
 	
 	// MARK: - Public
     
-	func get(dateGreater: Double? = nil, dateSmaller: Double? = nil, platform:Int? = nil, order: String? = nil,
-             success: @escaping (Data, _ dateGreater: Double?, _ dateSmaller: Double?) -> Void,
-             failure: @escaping (ServiceFailureType) -> Void) {
+	func get(
+        dateGreater: Double? = nil, dateSmaller: Double? = nil, platform: Int? = nil,
+        order: String? = nil, success: @escaping (Data, _ dateGreater: Double?, _ dateSmaller: Double?) -> Void,
+        failure: @escaping (ServiceFailureType) -> Void) {
         
 		_ = self.sessionManager.request(
 			ApiRouter.releaseDate(params: parameters(dateGreater: dateGreater, dateSmaller: dateSmaller,
@@ -53,10 +54,10 @@ class ReleaseDateApiService: ApiService {
 		static let expand = "expand"
 	}
 	
-	private func parameters(dateGreater: Double? = nil,
-                            dateSmaller: Double? = nil,
-                            platform: Int? = nil,
-                            order: String? = nil) -> Dictionary<String, Any> {
+	private func parameters(
+        dateGreater: Double? = nil, dateSmaller: Double? = nil,
+        platform: Int? = nil, order: String? = nil) -> [String: Any] {
+        
 		var params: Parameters = [APIParameterKey.fields: "*",
 								   APIParameterKey.expand: "game",
 								   APIParameterKey.order: "date:asc"

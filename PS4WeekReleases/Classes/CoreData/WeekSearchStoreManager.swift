@@ -9,16 +9,18 @@
 import UIKit
 import CoreData
 
-class WeekSearchStoreManager : NSObject {
+class WeekSearchStoreManager: NSObject {
 	
-	let persistantContainer:NSPersistentContainer!
+    // MARK: - Variables
+    
+	let persistantContainer: NSPersistentContainer!
 	
-	init(container:NSPersistentContainer){
+	init(container: NSPersistentContainer) {
 		self.persistantContainer = container
 		self.persistantContainer.viewContext.automaticallyMergesChangesFromParent = true
 	}
 	
-	override convenience init(){
+	override convenience init() {
 		guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
 			fatalError("Can not get shared app delegate")
 		}
@@ -26,14 +28,14 @@ class WeekSearchStoreManager : NSObject {
 		self.init(container: appDelegate.persistentContainer)
 	}
 	
-	lazy var backgroundContext:NSManagedObjectContext = {
+	lazy var backgroundContext: NSManagedObjectContext = {
 		return self.persistantContainer.newBackgroundContext()
 	}()
 	
-	//MARK: CRUD
+	// MARK: - CRUD
 	//Create Retrieve Update Data
 	
-	func insertReleaseDate(dateGreater:Double, dateSmaller:Double, data:Data) {
+	func insertReleaseDate(dateGreater: Double, dateSmaller: Double, data: Data) {
 		guard let entity = NSEntityDescription.insertNewObject(forEntityName: "WeekSearchData", into: backgroundContext)
 			as? WeekSearchData else { return }
 		entity.dateGreater = dateGreater

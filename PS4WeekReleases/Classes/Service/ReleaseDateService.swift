@@ -41,7 +41,7 @@ class ReleaseDateService: Service<ReleaseDate> {
 		DispatchQueue.main.async {
 			if let releaseDates = self.jsonDecodeArray(data: data) {
 				self.delegate?.getPlaystationWeekDidComplete(releaseDates: releaseDates)
-				if (dateGreater != nil && dateSmaller != nil) {
+				if dateGreater != nil && dateSmaller != nil {
 					self.dbInsert(dateGreater: dateGreater!, dateSmaller: dateSmaller!, data: data)
 				}
 			} else {
