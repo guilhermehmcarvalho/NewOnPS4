@@ -46,7 +46,7 @@ class WeekSearchStoreManager : NSObject {
 		let request: NSFetchRequest<WeekSearchData> = WeekSearchData.fetchRequest()
 		request.fetchLimit = 1
 		request.predicate = NSPredicate(format: "dateGreater = \(dateGreater)")
-		request.predicate = NSPredicate(format: "dateSmaller = ", dateSmaller)
+		request.predicate = NSPredicate(format: "dateSmaller = \(dateSmaller)")
 		
 		let results = try? backgroundContext.fetch(request)
 		return results?.first
