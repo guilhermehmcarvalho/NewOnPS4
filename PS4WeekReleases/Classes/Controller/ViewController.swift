@@ -10,7 +10,7 @@ import UIKit
 import VegaScrollFlowLayout
 
 // MARK: - Configurable constants
-private let itemHeight: CGFloat = 84
+private let itemHeight: CGFloat = 204
 private let lineSpacing: CGFloat = 20
 private let xInset: CGFloat = 20
 private let topInset: CGFloat = 10
@@ -29,6 +29,7 @@ class ViewController: UIViewController {
 		collectionView.register( nib, forCellWithReuseIdentifier: cellId)
 		collectionView.contentInset.bottom = itemHeight
 		configureCollectionViewLayout()
+		setUpNavBar()
 		
 		releaseDateService.delegate = self
 		releaseDateService.getPlaystationWeek()
