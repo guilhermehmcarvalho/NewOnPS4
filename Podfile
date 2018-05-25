@@ -9,6 +9,7 @@ target 'PS4WeekReleases' do
   pod 'Alamofire', '~> 4.6.0'
   pod 'VegaScrollFlowLayout', '~> 1.1'
   pod 'AlamofireImage', '~> 3.3'
+  pod 'NVActivityIndicatorView', '~> 4.2.1'
 
   target 'PS4WeekReleasesTests' do
     inherit! :search_paths

@@ -17,7 +17,7 @@ enum ImageRouter {
 	
 	// MARK: - Public
 	
-	public func get(hash: String, doubleSize: Bool, completionHandler: @escaping ((DataResponse<Image>) -> Void)) {
+	public func get(hash: String, doubleSize: Bool, completionHandler: @escaping ((DataResponse<Image>) -> Void)) -> Request {
 		
 		var url:String = ApiService.Params.imageURL
 		
@@ -25,7 +25,7 @@ enum ImageRouter {
 		if doubleSize { url.append("_2x") }
 		url.append("/\(hash).png")
 		
-		Alamofire.request(url).responseImage(completionHandler: completionHandler)
+		return Alamofire.request(url).responseImage(completionHandler: completionHandler)
 	}
 	
 	// MARK: - Private

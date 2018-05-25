@@ -11,23 +11,25 @@ import Alamofire
 
 class ImageService {
 	
-	// MARK: - Variable
+	// MARK: - Variables
 	
 	weak public var delegate:ImageServiceDelegate?
 	
 	// MARK: - Public
 	
-	func getImage(size:ImageRouter, releaseDate:ReleaseDate, doubleSize:Bool? = false) {
+	func getImage(size:ImageRouter, releaseDate:ReleaseDate, doubleSize:Bool? = false) -> Request? {
 		if let hash = releaseDate.game.cover?.hash {
-			self.getImage(size: size, hash: hash)
+			return self.getImage(size: size, hash: hash)
 		}
 		else {
 			delegate?.getImageDidFail(failure: ServiceFailureType.server)
 		}
+		
+		return nil
 	}
 	
-	func getImage(size:ImageRouter, hash:String, doubleSize:Bool = false) {
-		size.get(hash: hash, doubleSize: doubleSize) { (response) in
+	func getImage(size:ImageRouter, hash:String, doubleSize:Bool = false) -> Request {
+		return size.get(hash: hash, doubleSize: doubleSize) { (response) in
 			DispatchQueue.main.async {
 				if let image = response.result.value {
 					self.delegate?.getImageDidComplete(image: image)
@@ -39,7 +41,6 @@ class ImageService {
 			}
 		}
 	}
-	
 }
 
 protocol ImageServiceDelegate: class {

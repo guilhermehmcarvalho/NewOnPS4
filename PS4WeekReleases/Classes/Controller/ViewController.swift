@@ -8,6 +8,7 @@
 
 import UIKit
 import VegaScrollFlowLayout
+import NVActivityIndicatorView
 
 // MARK: - Configurable constants
 private let itemHeight: CGFloat = 204
@@ -21,6 +22,7 @@ class ViewController: UIViewController {
 	let releaseDateService = ReleaseDateService()
 	@IBOutlet weak var collectionView: UICollectionView!
 	fileprivate var releases: [ReleaseDate] = []
+	@IBOutlet weak var activityIndicator: NVActivityIndicatorView!
 	
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +34,9 @@ class ViewController: UIViewController {
 		setUpNavBar()
 		
 		releaseDateService.delegate = self
+		activityIndicator.type = .pacman
+		activityIndicator.color = UIColor.blue
+		activityIndicator.startAnimating()
 		releaseDateService.getPlaystationWeek()
     }
 
@@ -71,10 +76,12 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
 extension ViewController: ReleaseDateServiceDelegate {
 	func getPlaystationWeekDidComplete(releaseDates: [ReleaseDate]) {
 		releases = releaseDates
+		activityIndicator.stopAnimating()
 		self.collectionView.reloadData()
 	}
 	
 	func getPlaystationWeekDidComplete(failure: ServiceFailureType) {
 		print(failure)
+		activityIndicator.stopAnimating()
 	}
 }
