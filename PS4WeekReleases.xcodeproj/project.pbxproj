@@ -34,6 +34,8 @@
 		799E559D20B5A777005671EC /* WeekSearchStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559C20B5A777005671EC /* WeekSearchStoreManager.swift */; };
 		79B9173420B436E80065205C /* ReleaseDateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173320B436E80065205C /* ReleaseDateService.swift */; };
 		79B9173620B453F80065205C /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173520B453F80065205C /* Cover.swift */; };
+		79CAC85E20B8058500722869 /* ReleaseDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CAC85D20B8058500722869 /* ReleaseDateCell.xib */; };
+		79CAC86020B80B5D00722869 /* ReleaseDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC85F20B80B5D00722869 /* ReleaseDateCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,8 @@
 		799E559C20B5A777005671EC /* WeekSearchStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSearchStoreManager.swift; sourceTree = "<group>"; };
 		79B9173320B436E80065205C /* ReleaseDateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateService.swift; sourceTree = "<group>"; };
 		79B9173520B453F80065205C /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
+		79CAC85D20B8058500722869 /* ReleaseDateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReleaseDateCell.xib; sourceTree = "<group>"; };
+		79CAC85F20B80B5D00722869 /* ReleaseDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateCell.swift; sourceTree = "<group>"; };
 		90BBDF5CC1D7F2E4D843ABB6 /* Pods-PS4WeekReleasesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4EDD68EE172A3E8B76C596F /* Pods-PS4WeekReleasesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests.release.xcconfig"; sourceTree = "<group>"; };
 		B033B0A34F643B7D8FBFB85E /* Pods-PS4WeekReleasesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -237,6 +241,7 @@
 		14A954C720B334500090F9B5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				79CAC85C20B8057300722869 /* Cells */,
 				14A9548E20B170AE0090F9B5 /* Main.storyboard */,
 				14A9549620B170AE0090F9B5 /* LaunchScreen.storyboard */,
 			);
@@ -291,6 +296,15 @@
 			path = CoreData;
 			sourceTree = "<group>";
 		};
+		79CAC85C20B8057300722869 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				79CAC85D20B8058500722869 /* ReleaseDateCell.xib */,
+				79CAC85F20B80B5D00722869 /* ReleaseDateCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		F940D413F18D6C8F1A7581B9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,7 +341,6 @@
 				14A9548520B170AE0090F9B5 /* Resources */,
 				3AD638A2306D2949F30C1A51 /* [CP] Embed Pods Frameworks */,
 				14A954BC20B171E90090F9B5 /* Swift Lint */,
-				7E254C2607A85EF90423C262 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -346,8 +359,6 @@
 				14A9549A20B170AE0090F9B5 /* Sources */,
 				14A9549B20B170AE0090F9B5 /* Frameworks */,
 				14A9549C20B170AE0090F9B5 /* Resources */,
-				9F575E605438AB86A1B196A8 /* [CP] Embed Pods Frameworks */,
-				4D4A164778C8ED2FC89E69EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -367,8 +378,6 @@
 				14A954A520B170AE0090F9B5 /* Sources */,
 				14A954A620B170AE0090F9B5 /* Frameworks */,
 				14A954A720B170AE0090F9B5 /* Resources */,
-				0C4E431A6F7CAF56398ADE93 /* [CP] Embed Pods Frameworks */,
-				E42520231FC1AF95E7CA1941 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -433,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A9549820B170AE0090F9B5 /* LaunchScreen.storyboard in Resources */,
+				79CAC85E20B8058500722869 /* ReleaseDateCell.xib in Resources */,
 				14A9549520B170AE0090F9B5 /* Assets.xcassets in Resources */,
 				14A9549020B170AE0090F9B5 /* Main.storyboard in Resources */,
 			);
@@ -455,21 +465,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C4E431A6F7CAF56398ADE93 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		14A954BC20B171E90090F9B5 /* Swift Lint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -502,51 +497,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4D4A164778C8ED2FC89E69EC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7E254C2607A85EF90423C262 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9F575E605438AB86A1B196A8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD48C81F70BF2BB06A80D904 /* [CP] Check Pods Manifest.lock */ = {
@@ -603,21 +553,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E42520231FC1AF95E7CA1941 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -628,6 +563,7 @@
 				799E559A20B595B4005671EC /* Date+Day.swift in Sources */,
 				143D97AB20B5C51200152BC5 /* Constants.swift in Sources */,
 				14A9549320B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld in Sources */,
+				79CAC86020B80B5D00722869 /* ReleaseDateCell.swift in Sources */,
 				14A954CF20B339400090F9B5 /* Bundle.swift in Sources */,
 				14A954D520B33F7E0090F9B5 /* HTTPHeaderField.swift in Sources */,
 				14A954C620B1C67B0090F9B5 /* ReleaseDate.swift in Sources */,

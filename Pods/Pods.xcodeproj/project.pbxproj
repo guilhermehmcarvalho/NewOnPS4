@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FE7327BDC5F5387C604A2311AB85E24 /* Pods-PS4WeekReleasesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E600D920F080FD3E234B5B8013E278F /* Pods-PS4WeekReleasesTests-dummy.m */; };
+		0812A444C54EFBAC3F5CCF402423A2AB /* Pods-PS4WeekReleasesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D99EAEEA499B2464C1E6152EBBAE8B0 /* Pods-PS4WeekReleasesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9799F11E9DFC87B0CABD03CF398504 /* Timeline.swift */; };
-		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C635B4FDDADC5805CB1B3C9FE595F683 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		341B08EF87BA9618B3BCBCFF18ACCB90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFF57EAC7B101F2A14CFF6A77C9D416F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A4BF4990195A45C9821D90707E75539 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA490396E673D5E4E5A16BB24771F5C /* TaskDelegate.swift */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE04C0F85492E9F2ADBA0A9DA2AFAE1B /* Request.swift */; };
 		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66BF214982F12EA770C7611896187ED /* DispatchQueue+Alamofire.swift */; };
 		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10497B74A025F4C5EE8F956C96D8596A /* ServerTrustPolicy.swift */; };
-		6889AA3C7C17849904AFD94CDF05CC67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		68FF2FEBCD0C992D9CF497F2A20E4E56 /* VegaScrollFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E7180977BBA3D2C0B28E726CA6E1E8 /* VegaScrollFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7697ACCA3EDF26F3511263D3DF230026 /* Pods-PS4WeekReleasesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BAD9FAFE653C85D9651194564E4D4C /* Pods-PS4WeekReleasesUITests-dummy.m */; };
+		68FF2FEBCD0C992D9CF497F2A20E4E56 /* VegaScrollFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C93C4BCFCF5BAA853E3BD3DAE27F03BA /* VegaScrollFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C61A46B5F23966DB01835074949BEC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8358D2105F221752DFB3197D0F81F22 /* SessionDelegate.swift */; };
 		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB925D70B4E7E7B848DD1C1D3046205F /* Result.swift */; };
-		7F078FDF5FC8F749B98E8A62B3FC5C81 /* Pods-PS4WeekReleasesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADEFD88C79E9D888F0DC26E9CA77A8C /* Pods-PS4WeekReleasesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AE80F2DBE83FD3FE1F0C1E5E7022E06 /* Pods-PS4WeekReleasesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5970E72015D722855BEEBE983F1342E /* Pods-PS4WeekReleasesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B345D3C020FACAAE095D97BD46C75E32 /* AFError.swift */; };
 		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CE9B8D30C3840D3040C1C44D6782BF /* NetworkReachabilityManager.swift */; };
-		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 052C18F6160CB084848EFA323B10ECC4 /* Alamofire-dummy.m */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A507A195A6C8FDA99B18D87E279F25 /* Alamofire-dummy.m */; };
 		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B75C981E60FEB713C50EFB5EA2AA26D /* SessionManager.swift */; };
-		B1CECA280D70AB19B49F23ADCD120BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17430487A7429C6FEF46A3DD6B8EA59 /* MultipartFormData.swift */; };
-		BA342DC68C7FC924AC63B475AC568BD8 /* VegaScrollFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE200C7E9216DF03D39EFDFE0B0CEB2A /* VegaScrollFlowLayout-dummy.m */; };
+		BA342DC68C7FC924AC63B475AC568BD8 /* VegaScrollFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F888EF86CD11C13847C3CFCBE5B54579 /* VegaScrollFlowLayout-dummy.m */; };
 		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D700673F3671EEB1EA35745BB5A35 /* Validation.swift */; };
 		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014705401739D7EE14A524A9B5BEBD7D /* ParameterEncoding.swift */; };
+		C781D5B5EFBA28409881DD353418958A /* Pods-PS4WeekReleasesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E880E9ADB9FE0CE14018910AA83CF0 /* Pods-PS4WeekReleasesTests-dummy.m */; };
+		CB6AB31D6D5120CBF4D00D928CCB9828 /* Pods-PS4WeekReleasesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F10B1623241420230DAD700A8F5E8BEE /* Pods-PS4WeekReleasesUITests-dummy.m */; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1EB9DF10627BBB3EB1C0CBB38734A8 /* Response.swift */; };
-		EA2CFAFA5BBE9A78AEECE2DD8E51DC9F /* Pods-PS4WeekReleases-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 393563EB73518021F43EF94EA7583F30 /* Pods-PS4WeekReleases-dummy.m */; };
-		EE4482ACCF2471E7CE57E42A6605034E /* Pods-PS4WeekReleases-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFEA410CC10B53A2D46ED148FFEC8BD3 /* Pods-PS4WeekReleases-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA03D5F58C995BEC618DE41C5DA20CF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		EA2CFAFA5BBE9A78AEECE2DD8E51DC9F /* Pods-PS4WeekReleases-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A11BE366C2EA036FC9C5B25B19D5D4C /* Pods-PS4WeekReleases-dummy.m */; };
+		EA708CFF80BE3E0B1284D2BF5157BD88 /* Pods-PS4WeekReleasesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E189308C9E9BE8AE7679BABC646E90 /* Pods-PS4WeekReleasesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE4482ACCF2471E7CE57E42A6605034E /* Pods-PS4WeekReleases-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6E34454CAFE14E1B127DC327B6CAAF /* Pods-PS4WeekReleases-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EED90BA2234065C7E4E105FA0278205C /* VegaScrollFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D043A3B601B56A68E75E9519450A2CFA /* VegaScrollFlowLayout.swift */; };
+		EF1B83AB99BF6B3E4D5CD6449C7951C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551E246E3AC9E75E3DB7480E6CA5348A /* Notifications.swift */; };
-		F33EE3C21BC37028301DF2D983288CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2C3423430C18B9D07E98F6BF204E5 /* ResponseSerialization.swift */; };
 		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76C37C98D969CBCF3273A42FAF5400F /* Alamofire.swift */; };
 /* End PBXBuildFile section */
@@ -57,76 +57,90 @@
 			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
 			remoteInfo = Alamofire;
 		};
+		892A71844FE4C61F9CE3D3A97FE44885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0A743C35571F1C19A234C2DFD5A0B8;
+			remoteInfo = "Pods-PS4WeekReleases";
+		};
+		E47E9C23D324D56793F7D74E1095661C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0A743C35571F1C19A234C2DFD5A0B8;
+			remoteInfo = "Pods-PS4WeekReleases";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		014705401739D7EE14A524A9B5BEBD7D /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		052C18F6160CB084848EFA323B10ECC4 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		0B5B444E7FC423EC8C11F7DC5C8DF480 /* Pods-PS4WeekReleases.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PS4WeekReleases.modulemap"; sourceTree = "<group>"; };
+		02A5E56916B7D7861D24AFE56BA1D05C /* VegaScrollFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VegaScrollFlowLayout.xcconfig; sourceTree = "<group>"; };
+		04E189308C9E9BE8AE7679BABC646E90 /* Pods-PS4WeekReleasesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PS4WeekReleasesTests-umbrella.h"; sourceTree = "<group>"; };
+		0A5B74B1029903C9AA5659BCAB69AA0A /* Pods-PS4WeekReleasesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PS4WeekReleasesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FEE7853E3D39BD6187B95CB472BE122 /* Pods-PS4WeekReleases-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PS4WeekReleases-acknowledgements.plist"; sourceTree = "<group>"; };
 		10497B74A025F4C5EE8F956C96D8596A /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		107384D5E3440E33F71A8E99F849F648 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1131905D9CBFCEEDEF1E306A57EA2EA5 /* VegaScrollFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VegaScrollFlowLayout.modulemap; sourceTree = "<group>"; };
-		12B97505490E7BA4E5AD179E15A27F92 /* Pods-PS4WeekReleasesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PS4WeekReleasesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		13CE9B8D30C3840D3040C1C44D6782BF /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		16BAD9FAFE653C85D9651194564E4D4C /* Pods-PS4WeekReleasesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PS4WeekReleasesUITests-dummy.m"; sourceTree = "<group>"; };
+		1A254B7459F0A034347798898F043519 /* Pods-PS4WeekReleases.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PS4WeekReleases.debug.xcconfig"; sourceTree = "<group>"; };
+		201359B599F77C1EFE76224D5CCCD335 /* Pods-PS4WeekReleasesUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PS4WeekReleasesUITests-resources.sh"; sourceTree = "<group>"; };
 		2332DE9C1523A40CF4A7F79CFA921A7A /* Pods_PS4WeekReleasesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PS4WeekReleasesTests.framework; path = "Pods-PS4WeekReleasesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27AEBE6CDD3043B8825B67AC239584CA /* Pods-PS4WeekReleasesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PS4WeekReleasesTests.release.xcconfig"; sourceTree = "<group>"; };
-		29E546853E31C51A87DC81BFC085EAEE /* Pods-PS4WeekReleasesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PS4WeekReleasesUITests-frameworks.sh"; sourceTree = "<group>"; };
-		2AC59C6D2CDA904D13A1156248681004 /* Pods-PS4WeekReleasesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PS4WeekReleasesTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2ADEFD88C79E9D888F0DC26E9CA77A8C /* Pods-PS4WeekReleasesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PS4WeekReleasesUITests-umbrella.h"; sourceTree = "<group>"; };
-		2DE16B2093A681675C7617530C339758 /* VegaScrollFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VegaScrollFlowLayout.xcconfig; sourceTree = "<group>"; };
-		393563EB73518021F43EF94EA7583F30 /* Pods-PS4WeekReleases-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PS4WeekReleases-dummy.m"; sourceTree = "<group>"; };
-		3DC018B2D0BB490D448ED118B0D03757 /* Pods-PS4WeekReleases-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PS4WeekReleases-acknowledgements.markdown"; sourceTree = "<group>"; };
-		406343AE7ECEBB5810379144032164E5 /* Pods-PS4WeekReleasesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PS4WeekReleasesTests-resources.sh"; sourceTree = "<group>"; };
-		44B41357D1C597E3FAD72EC61CC58543 /* VegaScrollFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VegaScrollFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		281A7E4DC4462B62CD601F47A6B3BB98 /* Pods-PS4WeekReleasesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PS4WeekReleasesTests.modulemap"; sourceTree = "<group>"; };
+		2B052D67BAD197FBA479FF17B3A53F23 /* Pods-PS4WeekReleasesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PS4WeekReleasesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		351CF7775D30CF88EEA251D909C0C56F /* Pods-PS4WeekReleasesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PS4WeekReleasesUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3E7A232E3C9CCD6A0182266245BA9A85 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		40ED064AFE53C4F585D19253819EEBA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425EE5C56C9DEB0FA2A425C9808734AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A8D700673F3671EEB1EA35745BB5A35 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		5426D976C63B142F0068956ACC637E97 /* Pods-PS4WeekReleases-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PS4WeekReleases-frameworks.sh"; sourceTree = "<group>"; };
-		54CF58772BB060C0DDEFBA64FDC55F1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D99EAEEA499B2464C1E6152EBBAE8B0 /* Pods-PS4WeekReleasesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PS4WeekReleasesUITests-umbrella.h"; sourceTree = "<group>"; };
+		4E6E34454CAFE14E1B127DC327B6CAAF /* Pods-PS4WeekReleases-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PS4WeekReleases-umbrella.h"; sourceTree = "<group>"; };
+		50310A4816D21DEAFEBDC8081352CD2E /* VegaScrollFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VegaScrollFlowLayout.modulemap; sourceTree = "<group>"; };
+		51167FD2DA48DFB69DAEB72066620676 /* VegaScrollFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VegaScrollFlowLayout-prefix.pch"; sourceTree = "<group>"; };
 		551E246E3AC9E75E3DB7480E6CA5348A /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		60ED9C02AA2A35222DEADE8FB0BC5948 /* Pods-PS4WeekReleasesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PS4WeekReleasesUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6343B3242DBB20E7892C43DA720D112E /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		63A910AAC223E69D0D2839663255B8FB /* Pods-PS4WeekReleases-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PS4WeekReleases-acknowledgements.plist"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A11BE366C2EA036FC9C5B25B19D5D4C /* Pods-PS4WeekReleases-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PS4WeekReleases-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6CA490396E673D5E4E5A16BB24771F5C /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		6DD1616EFEE9AE66C6B3047176918E2B /* Pods-PS4WeekReleasesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PS4WeekReleasesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		76ADE58A8BC301B9F914285AC923CCC8 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		6CBBD6ED36EE273262FC599C42DB2202 /* Pods-PS4WeekReleases.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PS4WeekReleases.modulemap"; sourceTree = "<group>"; };
+		70155F3A7D0B384929C7240EF182E2AB /* Pods-PS4WeekReleasesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PS4WeekReleasesUITests.modulemap"; sourceTree = "<group>"; };
+		752F85945F5418A4A4822E8295FD05B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77B2EEBE69C628EB4E7ADD516A105E47 /* Pods_PS4WeekReleasesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PS4WeekReleasesUITests.framework; path = "Pods-PS4WeekReleasesUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		78E0CF4A202D8C3393C970B220F6C425 /* Pods-PS4WeekReleasesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PS4WeekReleasesUITests.modulemap"; sourceTree = "<group>"; };
 		79E0CEDDB0CA1F4A28A59BE61BE0793C /* VegaScrollFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VegaScrollFlowLayout.framework; path = VegaScrollFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A0F7168A9E08857A4877084EA92C9AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B75C981E60FEB713C50EFB5EA2AA26D /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		87A6C05909EFC9E6CBF7EC828ACB4008 /* Pods-PS4WeekReleases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PS4WeekReleases.release.xcconfig"; sourceTree = "<group>"; };
-		882B3A9256E39024081EF1969158403A /* Pods-PS4WeekReleasesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PS4WeekReleasesTests.modulemap"; sourceTree = "<group>"; };
-		88DEA40E8EE4D81AC17CF8D41C64F83E /* Pods-PS4WeekReleasesUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PS4WeekReleasesUITests-resources.sh"; sourceTree = "<group>"; };
-		892C5134923F88AE7E0723924659741E /* Pods-PS4WeekReleasesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PS4WeekReleasesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		92C25D1D8A078DB4020C9E924B6B8635 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E92365EF3F9A0D007E7D51CA07888E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85E880E9ADB9FE0CE14018910AA83CF0 /* Pods-PS4WeekReleasesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PS4WeekReleasesTests-dummy.m"; sourceTree = "<group>"; };
+		85F77C2D680AEABD80131E1B54F72C5A /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		889F54ADCED2EE25D9A77DC7E8CFF716 /* Pods-PS4WeekReleasesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PS4WeekReleasesTests-frameworks.sh"; sourceTree = "<group>"; };
+		8980583851C07B661307D90CA4C24A33 /* Pods-PS4WeekReleasesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PS4WeekReleasesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		950ED1BE2F68932933C8886492C4A565 /* Pods-PS4WeekReleases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PS4WeekReleases.release.xcconfig"; sourceTree = "<group>"; };
+		9947EEA91404E10EA632BB48340B1F2E /* Pods-PS4WeekReleasesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PS4WeekReleasesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		994C36FE9B812E41190C7BD66130C55D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9799F11E9DFC87B0CABD03CF398504 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		9E600D920F080FD3E234B5B8013E278F /* Pods-PS4WeekReleasesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PS4WeekReleasesTests-dummy.m"; sourceTree = "<group>"; };
 		B17430487A7429C6FEF46A3DD6B8EA59 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		B2E7180977BBA3D2C0B28E726CA6E1E8 /* VegaScrollFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VegaScrollFlowLayout-umbrella.h"; sourceTree = "<group>"; };
 		B345D3C020FACAAE095D97BD46C75E32 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		B5970E72015D722855BEEBE983F1342E /* Pods-PS4WeekReleasesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PS4WeekReleasesTests-umbrella.h"; sourceTree = "<group>"; };
+		B3EBC1FA25F3B6986FCF7DE030BBDC96 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		B76C37C98D969CBCF3273A42FAF5400F /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		B8B702FF735B358E9077D5BA574BF702 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFEA410CC10B53A2D46ED148FFEC8BD3 /* Pods-PS4WeekReleases-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PS4WeekReleases-umbrella.h"; sourceTree = "<group>"; };
-		C1C6AB8DD77CBF059253C245F53E4603 /* Pods-PS4WeekReleasesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PS4WeekReleasesTests-frameworks.sh"; sourceTree = "<group>"; };
-		C1D29333CE5E4DF06FC2102D6AD84528 /* Pods-PS4WeekReleasesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PS4WeekReleasesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C635B4FDDADC5805CB1B3C9FE595F683 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		C8226AA4EF269F3D623A9D75A9118BA9 /* Pods-PS4WeekReleases.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PS4WeekReleases.debug.xcconfig"; sourceTree = "<group>"; };
-		CBB5BCD2C6B72857883CA09FFA81C023 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		B821D69E0237568F3398FE9BDD78ECCE /* Pods-PS4WeekReleasesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PS4WeekReleasesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1A095923FC5A7A512AE4DB79861C7DD /* Pods-PS4WeekReleasesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PS4WeekReleasesTests-resources.sh"; sourceTree = "<group>"; };
+		C789233586DA155A1006340C2A46F015 /* Pods-PS4WeekReleases-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PS4WeekReleases-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7A507A195A6C8FDA99B18D87E279F25 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		C93C4BCFCF5BAA853E3BD3DAE27F03BA /* VegaScrollFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VegaScrollFlowLayout-umbrella.h"; sourceTree = "<group>"; };
 		CF1EB9DF10627BBB3EB1C0CBB38734A8 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		D0231D16A2A7D03AA4B08748AF3786D3 /* Pods-PS4WeekReleases-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PS4WeekReleases-resources.sh"; sourceTree = "<group>"; };
 		D043A3B601B56A68E75E9519450A2CFA /* VegaScrollFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VegaScrollFlowLayout.swift; path = VegaScroll/Classes/VegaScrollFlowLayout.swift; sourceTree = "<group>"; };
+		D5DA3E8E0AD8BD81CDD33CCADD3FC9AD /* Pods-PS4WeekReleasesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PS4WeekReleasesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D706656157FB31A7DE7942E869EE1389 /* Pods-PS4WeekReleasesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PS4WeekReleasesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D7E2C3423430C18B9D07E98F6BF204E5 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		DE04C0F85492E9F2ADBA0A9DA2AFAE1B /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		E95920C0FF26F637B2B1E6D783FC3778 /* Pods-PS4WeekReleasesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PS4WeekReleasesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EE200C7E9216DF03D39EFDFE0B0CEB2A /* VegaScrollFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VegaScrollFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		E527DA8FDEC774DDCA7D00EC480B60B4 /* Pods-PS4WeekReleasesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PS4WeekReleasesTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6EE456D17EB02017F1ECA3DC581CB20 /* Pods-PS4WeekReleases-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PS4WeekReleases-frameworks.sh"; sourceTree = "<group>"; };
+		EFF12E0252009978EAE13ACA09669C0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10B1623241420230DAD700A8F5E8BEE /* Pods-PS4WeekReleasesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PS4WeekReleasesUITests-dummy.m"; sourceTree = "<group>"; };
 		F5B7273ACE83D0E564305DE23EB410ED /* Pods_PS4WeekReleases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PS4WeekReleases.framework; path = "Pods-PS4WeekReleases.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F66BF214982F12EA770C7611896187ED /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		F8358D2105F221752DFB3197D0F81F22 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		F888EF86CD11C13847C3CFCBE5B54579 /* VegaScrollFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VegaScrollFlowLayout-dummy.m"; sourceTree = "<group>"; };
 		FB925D70B4E7E7B848DD1C1D3046205F /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		FCA5B90F2AE1207AB9BB2CEF8FA350E5 /* Pods-PS4WeekReleases-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PS4WeekReleases-resources.sh"; sourceTree = "<group>"; };
+		FFF57EAC7B101F2A14CFF6A77C9D416F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,15 +148,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1CECA280D70AB19B49F23ADCD120BB3 /* Foundation.framework in Frameworks */,
+				2A4BF4990195A45C9821D90707E75539 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63647E68FAB89A81C95EC29471A8E7E8 /* Frameworks */ = {
+		97DC800AAA1FA83CED24BF1603C515BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6889AA3C7C17849904AFD94CDF05CC67 /* Foundation.framework in Frameworks */,
+				DA03D5F58C995BEC618DE41C5DA20CF4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+				834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,39 +172,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F33EE3C21BC37028301DF2D983288CAC /* Foundation.framework in Frameworks */,
+				EF1B83AB99BF6B3E4D5CD6449C7951C3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF2FB1A681074BE3782F238FBEFA9131 /* Frameworks */ = {
+		BE7CFD91BB923A3B19F0A09C8AA40070 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				341B08EF87BA9618B3BCBCFF18ACCB90 /* Foundation.framework in Frameworks */,
+				6C61A46B5F23966DB01835074949BEC8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0187E1813ADDC4CC896C2C0BB4AE6167 /* Pods-PS4WeekReleases */ = {
-			isa = PBXGroup;
-			children = (
-				107384D5E3440E33F71A8E99F849F648 /* Info.plist */,
-				0B5B444E7FC423EC8C11F7DC5C8DF480 /* Pods-PS4WeekReleases.modulemap */,
-				3DC018B2D0BB490D448ED118B0D03757 /* Pods-PS4WeekReleases-acknowledgements.markdown */,
-				63A910AAC223E69D0D2839663255B8FB /* Pods-PS4WeekReleases-acknowledgements.plist */,
-				393563EB73518021F43EF94EA7583F30 /* Pods-PS4WeekReleases-dummy.m */,
-				5426D976C63B142F0068956ACC637E97 /* Pods-PS4WeekReleases-frameworks.sh */,
-				FCA5B90F2AE1207AB9BB2CEF8FA350E5 /* Pods-PS4WeekReleases-resources.sh */,
-				BFEA410CC10B53A2D46ED148FFEC8BD3 /* Pods-PS4WeekReleases-umbrella.h */,
-				C8226AA4EF269F3D623A9D75A9118BA9 /* Pods-PS4WeekReleases.debug.xcconfig */,
-				87A6C05909EFC9E6CBF7EC828ACB4008 /* Pods-PS4WeekReleases.release.xcconfig */,
-			);
-			name = "Pods-PS4WeekReleases";
-			path = "Target Support Files/Pods-PS4WeekReleases";
-			sourceTree = "<group>";
-		};
 		1BCE9B9D97405B8CE35A31EB97D27E3D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,9 +199,9 @@
 		2259E3DB8D0984A5838FD5283AE8C9ED /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0187E1813ADDC4CC896C2C0BB4AE6167 /* Pods-PS4WeekReleases */,
-				8A05F5329D46A0FBA800D5F4EDFBB44D /* Pods-PS4WeekReleasesTests */,
-				4D67B4319CEA15FB6DE834CBA90B3788 /* Pods-PS4WeekReleasesUITests */,
+				7B4BB82A1F9B1E995B6584AF76D1B34C /* Pods-PS4WeekReleases */,
+				66C85F97B2C888212E59515599DBCD45 /* Pods-PS4WeekReleasesTests */,
+				C158811B52946667E0344A66154244EC /* Pods-PS4WeekReleasesUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -230,38 +226,64 @@
 				6CA490396E673D5E4E5A16BB24771F5C /* TaskDelegate.swift */,
 				9B9799F11E9DFC87B0CABD03CF398504 /* Timeline.swift */,
 				4A8D700673F3671EEB1EA35745BB5A35 /* Validation.swift */,
-				F4A468D9F2E357D49DB0BD386EF00718 /* Support Files */,
+				F3F66C090DB317CC7535ADB9A99CBF0C /* Support Files */,
 			);
 			name = Alamofire;
 			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		4D67B4319CEA15FB6DE834CBA90B3788 /* Pods-PS4WeekReleasesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7A0F7168A9E08857A4877084EA92C9AC /* Info.plist */,
-				78E0CF4A202D8C3393C970B220F6C425 /* Pods-PS4WeekReleasesUITests.modulemap */,
-				C1D29333CE5E4DF06FC2102D6AD84528 /* Pods-PS4WeekReleasesUITests-acknowledgements.markdown */,
-				E95920C0FF26F637B2B1E6D783FC3778 /* Pods-PS4WeekReleasesUITests-acknowledgements.plist */,
-				16BAD9FAFE653C85D9651194564E4D4C /* Pods-PS4WeekReleasesUITests-dummy.m */,
-				29E546853E31C51A87DC81BFC085EAEE /* Pods-PS4WeekReleasesUITests-frameworks.sh */,
-				88DEA40E8EE4D81AC17CF8D41C64F83E /* Pods-PS4WeekReleasesUITests-resources.sh */,
-				2ADEFD88C79E9D888F0DC26E9CA77A8C /* Pods-PS4WeekReleasesUITests-umbrella.h */,
-				60ED9C02AA2A35222DEADE8FB0BC5948 /* Pods-PS4WeekReleasesUITests.debug.xcconfig */,
-				12B97505490E7BA4E5AD179E15A27F92 /* Pods-PS4WeekReleasesUITests.release.xcconfig */,
-			);
-			name = "Pods-PS4WeekReleasesUITests";
-			path = "Target Support Files/Pods-PS4WeekReleasesUITests";
 			sourceTree = "<group>";
 		};
 		4F70EC063F92DD08B6CE11659556989A /* VegaScrollFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
 				D043A3B601B56A68E75E9519450A2CFA /* VegaScrollFlowLayout.swift */,
-				7F99885B03746F794D707B0B060C4E5D /* Support Files */,
+				BE8D8D61323478C2E1E2393BF9C78ED5 /* Support Files */,
 			);
 			name = VegaScrollFlowLayout;
 			path = VegaScrollFlowLayout;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66C85F97B2C888212E59515599DBCD45 /* Pods-PS4WeekReleasesTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E92365EF3F9A0D007E7D51CA07888E2 /* Info.plist */,
+				281A7E4DC4462B62CD601F47A6B3BB98 /* Pods-PS4WeekReleasesTests.modulemap */,
+				2B052D67BAD197FBA479FF17B3A53F23 /* Pods-PS4WeekReleasesTests-acknowledgements.markdown */,
+				D5DA3E8E0AD8BD81CDD33CCADD3FC9AD /* Pods-PS4WeekReleasesTests-acknowledgements.plist */,
+				85E880E9ADB9FE0CE14018910AA83CF0 /* Pods-PS4WeekReleasesTests-dummy.m */,
+				889F54ADCED2EE25D9A77DC7E8CFF716 /* Pods-PS4WeekReleasesTests-frameworks.sh */,
+				C1A095923FC5A7A512AE4DB79861C7DD /* Pods-PS4WeekReleasesTests-resources.sh */,
+				04E189308C9E9BE8AE7679BABC646E90 /* Pods-PS4WeekReleasesTests-umbrella.h */,
+				B821D69E0237568F3398FE9BDD78ECCE /* Pods-PS4WeekReleasesTests.debug.xcconfig */,
+				E527DA8FDEC774DDCA7D00EC480B60B4 /* Pods-PS4WeekReleasesTests.release.xcconfig */,
+			);
+			name = "Pods-PS4WeekReleasesTests";
+			path = "Target Support Files/Pods-PS4WeekReleasesTests";
+			sourceTree = "<group>";
+		};
+		7B4BB82A1F9B1E995B6584AF76D1B34C /* Pods-PS4WeekReleases */ = {
+			isa = PBXGroup;
+			children = (
+				EFF12E0252009978EAE13ACA09669C0E /* Info.plist */,
+				6CBBD6ED36EE273262FC599C42DB2202 /* Pods-PS4WeekReleases.modulemap */,
+				C789233586DA155A1006340C2A46F015 /* Pods-PS4WeekReleases-acknowledgements.markdown */,
+				0FEE7853E3D39BD6187B95CB472BE122 /* Pods-PS4WeekReleases-acknowledgements.plist */,
+				5A11BE366C2EA036FC9C5B25B19D5D4C /* Pods-PS4WeekReleases-dummy.m */,
+				E6EE456D17EB02017F1ECA3DC581CB20 /* Pods-PS4WeekReleases-frameworks.sh */,
+				D0231D16A2A7D03AA4B08748AF3786D3 /* Pods-PS4WeekReleases-resources.sh */,
+				4E6E34454CAFE14E1B127DC327B6CAAF /* Pods-PS4WeekReleases-umbrella.h */,
+				1A254B7459F0A034347798898F043519 /* Pods-PS4WeekReleases.debug.xcconfig */,
+				950ED1BE2F68932933C8886492C4A565 /* Pods-PS4WeekReleases.release.xcconfig */,
+			);
+			name = "Pods-PS4WeekReleases";
+			path = "Target Support Files/Pods-PS4WeekReleases";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -275,52 +297,44 @@
 			);
 			sourceTree = "<group>";
 		};
-		7F99885B03746F794D707B0B060C4E5D /* Support Files */ = {
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B8B702FF735B358E9077D5BA574BF702 /* Info.plist */,
-				1131905D9CBFCEEDEF1E306A57EA2EA5 /* VegaScrollFlowLayout.modulemap */,
-				2DE16B2093A681675C7617530C339758 /* VegaScrollFlowLayout.xcconfig */,
-				EE200C7E9216DF03D39EFDFE0B0CEB2A /* VegaScrollFlowLayout-dummy.m */,
-				44B41357D1C597E3FAD72EC61CC58543 /* VegaScrollFlowLayout-prefix.pch */,
-				B2E7180977BBA3D2C0B28E726CA6E1E8 /* VegaScrollFlowLayout-umbrella.h */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE8D8D61323478C2E1E2393BF9C78ED5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				425EE5C56C9DEB0FA2A425C9808734AF /* Info.plist */,
+				50310A4816D21DEAFEBDC8081352CD2E /* VegaScrollFlowLayout.modulemap */,
+				02A5E56916B7D7861D24AFE56BA1D05C /* VegaScrollFlowLayout.xcconfig */,
+				F888EF86CD11C13847C3CFCBE5B54579 /* VegaScrollFlowLayout-dummy.m */,
+				51167FD2DA48DFB69DAEB72066620676 /* VegaScrollFlowLayout-prefix.pch */,
+				C93C4BCFCF5BAA853E3BD3DAE27F03BA /* VegaScrollFlowLayout-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/VegaScrollFlowLayout";
 			sourceTree = "<group>";
 		};
-		8A05F5329D46A0FBA800D5F4EDFBB44D /* Pods-PS4WeekReleasesTests */ = {
+		C158811B52946667E0344A66154244EC /* Pods-PS4WeekReleasesUITests */ = {
 			isa = PBXGroup;
 			children = (
-				92C25D1D8A078DB4020C9E924B6B8635 /* Info.plist */,
-				882B3A9256E39024081EF1969158403A /* Pods-PS4WeekReleasesTests.modulemap */,
-				892C5134923F88AE7E0723924659741E /* Pods-PS4WeekReleasesTests-acknowledgements.markdown */,
-				2AC59C6D2CDA904D13A1156248681004 /* Pods-PS4WeekReleasesTests-acknowledgements.plist */,
-				9E600D920F080FD3E234B5B8013E278F /* Pods-PS4WeekReleasesTests-dummy.m */,
-				C1C6AB8DD77CBF059253C245F53E4603 /* Pods-PS4WeekReleasesTests-frameworks.sh */,
-				406343AE7ECEBB5810379144032164E5 /* Pods-PS4WeekReleasesTests-resources.sh */,
-				B5970E72015D722855BEEBE983F1342E /* Pods-PS4WeekReleasesTests-umbrella.h */,
-				6DD1616EFEE9AE66C6B3047176918E2B /* Pods-PS4WeekReleasesTests.debug.xcconfig */,
-				27AEBE6CDD3043B8825B67AC239584CA /* Pods-PS4WeekReleasesTests.release.xcconfig */,
+				40ED064AFE53C4F585D19253819EEBA6 /* Info.plist */,
+				70155F3A7D0B384929C7240EF182E2AB /* Pods-PS4WeekReleasesUITests.modulemap */,
+				0A5B74B1029903C9AA5659BCAB69AA0A /* Pods-PS4WeekReleasesUITests-acknowledgements.markdown */,
+				9947EEA91404E10EA632BB48340B1F2E /* Pods-PS4WeekReleasesUITests-acknowledgements.plist */,
+				F10B1623241420230DAD700A8F5E8BEE /* Pods-PS4WeekReleasesUITests-dummy.m */,
+				351CF7775D30CF88EEA251D909C0C56F /* Pods-PS4WeekReleasesUITests-frameworks.sh */,
+				201359B599F77C1EFE76224D5CCCD335 /* Pods-PS4WeekReleasesUITests-resources.sh */,
+				4D99EAEEA499B2464C1E6152EBBAE8B0 /* Pods-PS4WeekReleasesUITests-umbrella.h */,
+				8980583851C07B661307D90CA4C24A33 /* Pods-PS4WeekReleasesUITests.debug.xcconfig */,
+				D706656157FB31A7DE7942E869EE1389 /* Pods-PS4WeekReleasesUITests.release.xcconfig */,
 			);
-			name = "Pods-PS4WeekReleasesTests";
-			path = "Target Support Files/Pods-PS4WeekReleasesTests";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = "Pods-PS4WeekReleasesUITests";
+			path = "Target Support Files/Pods-PS4WeekReleasesUITests";
 			sourceTree = "<group>";
 		};
 		EE3FBCA04D4A42AC7DF282BA3E26E091 /* Products */ = {
@@ -335,15 +349,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4A468D9F2E357D49DB0BD386EF00718 /* Support Files */ = {
+		F3F66C090DB317CC7535ADB9A99CBF0C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6343B3242DBB20E7892C43DA720D112E /* Alamofire.modulemap */,
-				CBB5BCD2C6B72857883CA09FFA81C023 /* Alamofire.xcconfig */,
-				052C18F6160CB084848EFA323B10ECC4 /* Alamofire-dummy.m */,
-				76ADE58A8BC301B9F914285AC923CCC8 /* Alamofire-prefix.pch */,
-				C635B4FDDADC5805CB1B3C9FE595F683 /* Alamofire-umbrella.h */,
-				54CF58772BB060C0DDEFBA64FDC55F1F /* Info.plist */,
+				3E7A232E3C9CCD6A0182266245BA9A85 /* Alamofire.modulemap */,
+				85F77C2D680AEABD80131E1B54F72C5A /* Alamofire.xcconfig */,
+				C7A507A195A6C8FDA99B18D87E279F25 /* Alamofire-dummy.m */,
+				B3EBC1FA25F3B6986FCF7DE030BBDC96 /* Alamofire-prefix.pch */,
+				FFF57EAC7B101F2A14CFF6A77C9D416F /* Alamofire-umbrella.h */,
+				752F85945F5418A4A4822E8295FD05B1 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Alamofire";
@@ -352,11 +366,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A0083393567E64E3534A6FE03E3F0110 /* Headers */ = {
+		7B149B75E7FFC57618EAA395F47BA55D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F078FDF5FC8F749B98E8A62B3FC5C81 /* Pods-PS4WeekReleasesUITests-umbrella.h in Headers */,
+				EA708CFF80BE3E0B1284D2BF5157BD88 /* Pods-PS4WeekReleasesTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,19 +382,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADBFE42C3F2B540F23E8317CE7368014 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0812A444C54EFBAC3F5CCF402423A2AB /* Pods-PS4WeekReleasesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C7C1933B50DF172693913A606C607D61 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9AE80F2DBE83FD3FE1F0C1E5E7022E06 /* Pods-PS4WeekReleasesTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,38 +409,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		00BAD8DEBEF4461AD8F55AFF3E3AE8D7 /* Pods-PS4WeekReleasesTests */ = {
+		4446645CA075DD921591FC6B9180B5BF /* Pods-PS4WeekReleasesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8E75B84854667AF52F3696589F4690C1 /* Build configuration list for PBXNativeTarget "Pods-PS4WeekReleasesTests" */;
+			buildConfigurationList = 96C885E2423A9F03B5651309B1AD586B /* Build configuration list for PBXNativeTarget "Pods-PS4WeekReleasesTests" */;
 			buildPhases = (
-				75879506BED2ED6FBE5699868CC7C9D8 /* Sources */,
-				DF2FB1A681074BE3782F238FBEFA9131 /* Frameworks */,
-				C7C1933B50DF172693913A606C607D61 /* Headers */,
+				4AA3C901FA9C0C1692CD61D10A479AF4 /* Sources */,
+				97DC800AAA1FA83CED24BF1603C515BE /* Frameworks */,
+				7B149B75E7FFC57618EAA395F47BA55D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				87C16978B8217BA4CD30C05E949BDAAA /* PBXTargetDependency */,
 			);
 			name = "Pods-PS4WeekReleasesTests";
 			productName = "Pods-PS4WeekReleasesTests";
 			productReference = 2332DE9C1523A40CF4A7F79CFA921A7A /* Pods_PS4WeekReleasesTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		772A7D399FCB0519799CCB599FEC69D1 /* Pods-PS4WeekReleasesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8EA115118CBAAFDD5661FFE9E2B97EA8 /* Build configuration list for PBXNativeTarget "Pods-PS4WeekReleasesUITests" */;
-			buildPhases = (
-				9C5C32604DF1E9D3866333A988A0AEDB /* Sources */,
-				63647E68FAB89A81C95EC29471A8E7E8 /* Frameworks */,
-				A0083393567E64E3534A6FE03E3F0110 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PS4WeekReleasesUITests";
-			productName = "Pods-PS4WeekReleasesUITests";
-			productReference = 77B2EEBE69C628EB4E7ADD516A105E47 /* Pods_PS4WeekReleasesUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -444,6 +442,24 @@
 			name = Alamofire;
 			productName = Alamofire;
 			productReference = 994C36FE9B812E41190C7BD66130C55D /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1A519397DC0E5CB2ABECA085403BA96 /* Pods-PS4WeekReleasesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356BA8DE36D3106EAD8A3EFA04FF86D6 /* Build configuration list for PBXNativeTarget "Pods-PS4WeekReleasesUITests" */;
+			buildPhases = (
+				9AA4C6C0A238DB8965188D8046207FAA /* Sources */,
+				BE7CFD91BB923A3B19F0A09C8AA40070 /* Frameworks */,
+				ADBFE42C3F2B540F23E8317CE7368014 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5647728CABDDCDA324819917114D0E2F /* PBXTargetDependency */,
+			);
+			name = "Pods-PS4WeekReleasesUITests";
+			productName = "Pods-PS4WeekReleasesUITests";
+			productReference = 77B2EEBE69C628EB4E7ADD516A105E47 /* Pods_PS4WeekReleasesUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BE0A743C35571F1C19A234C2DFD5A0B8 /* Pods-PS4WeekReleases */ = {
@@ -488,8 +504,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -505,8 +521,8 @@
 			targets = (
 				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
 				BE0A743C35571F1C19A234C2DFD5A0B8 /* Pods-PS4WeekReleases */,
-				00BAD8DEBEF4461AD8F55AFF3E3AE8D7 /* Pods-PS4WeekReleasesTests */,
-				772A7D399FCB0519799CCB599FEC69D1 /* Pods-PS4WeekReleasesUITests */,
+				4446645CA075DD921591FC6B9180B5BF /* Pods-PS4WeekReleasesTests */,
+				A1A519397DC0E5CB2ABECA085403BA96 /* Pods-PS4WeekReleasesUITests */,
 				C60C6E723CA986DB83E58445A761891A /* VegaScrollFlowLayout */,
 			);
 		};
@@ -538,6 +554,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4AA3C901FA9C0C1692CD61D10A479AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C781D5B5EFBA28409881DD353418958A /* Pods-PS4WeekReleasesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6A675112E058691E894286099B78E542 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -555,19 +579,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75879506BED2ED6FBE5699868CC7C9D8 /* Sources */ = {
+		9AA4C6C0A238DB8965188D8046207FAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FE7327BDC5F5387C604A2311AB85E24 /* Pods-PS4WeekReleasesTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9C5C32604DF1E9D3866333A988A0AEDB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7697ACCA3EDF26F3511263D3DF230026 /* Pods-PS4WeekReleasesUITests-dummy.m in Sources */,
+				CB6AB31D6D5120CBF4D00D928CCB9828 /* Pods-PS4WeekReleasesUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,19 +596,126 @@
 			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
 			targetProxy = 7B314004FA2F4FFE122EF46FB00EF54B /* PBXContainerItemProxy */;
 		};
+		5647728CABDDCDA324819917114D0E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PS4WeekReleases";
+			target = BE0A743C35571F1C19A234C2DFD5A0B8 /* Pods-PS4WeekReleases */;
+			targetProxy = 892A71844FE4C61F9CE3D3A97FE44885 /* PBXContainerItemProxy */;
+		};
 		5B819A8AC2AC97DD4AEB252892680461 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VegaScrollFlowLayout;
 			target = C60C6E723CA986DB83E58445A761891A /* VegaScrollFlowLayout */;
 			targetProxy = 37A36CCA1EDD0D1BAC3B350581ED302A /* PBXContainerItemProxy */;
 		};
+		87C16978B8217BA4CD30C05E949BDAAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PS4WeekReleases";
+			target = BE0A743C35571F1C19A234C2DFD5A0B8 /* Pods-PS4WeekReleases */;
+			targetProxy = E47E9C23D324D56793F7D74E1095661C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0CF043950C7867FA2838AE38F26BD93E /* Debug */ = {
+		0EA9AED1A6B5333B579B5D56FE3C5171 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8226AA4EF269F3D623A9D75A9118BA9 /* Pods-PS4WeekReleases.debug.xcconfig */;
+			baseConfigurationReference = D706656157FB31A7DE7942E869EE1389 /* Pods-PS4WeekReleasesUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PS4WeekReleasesUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30D948AE62C04225F8DEF8734A4C5A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3FBE048D51582F938843CC964B7A9F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A254B7459F0A034347798898F043519 /* Pods-PS4WeekReleases.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -612,7 +735,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PS4WeekReleases;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -623,9 +746,9 @@
 			};
 			name = Debug;
 		};
-		2E81FE5F7DD7F97AFF4A7B30A67BFAD4 /* Debug */ = {
+		52F69654D67BA4E42862138F9B5D3783 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DE16B2093A681675C7617530C339758 /* VegaScrollFlowLayout.xcconfig */;
+			baseConfigurationReference = 02A5E56916B7D7861D24AFE56BA1D05C /* VegaScrollFlowLayout.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -642,6 +765,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = VegaScrollFlowLayout;
 				PRODUCT_NAME = VegaScrollFlowLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -654,7 +778,110 @@
 			};
 			name = Debug;
 		};
-		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+		5A5F26CD7D60FD621EC5E7B7D111D8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8980583851C07B661307D90CA4C24A33 /* Pods-PS4WeekReleasesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PS4WeekReleasesUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A5FFFD74FA9123A6AE4B1FF7A931EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950ED1BE2F68932933C8886492C4A565 /* Pods-PS4WeekReleases.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PS4WeekReleases/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DE2625FC90991411C4E824F5B5C940A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A5E56916B7D7861D24AFE56BA1D05C /* VegaScrollFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VegaScrollFlowLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = VegaScrollFlowLayout;
+				PRODUCT_NAME = VegaScrollFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -664,10 +891,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -675,6 +904,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -683,6 +913,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -707,16 +938,15 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		489B3979CB3D69593EA83DF2EDABA418 /* Release */ = {
+		A18C9CC7E37563F2891E7DC87F2DE6CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87A6C05909EFC9E6CBF7EC828ACB4008 /* Pods-PS4WeekReleases.release.xcconfig */;
+			baseConfigurationReference = 85F77C2D680AEABD80131E1B54F72C5A /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -727,20 +957,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PS4WeekReleases/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PS4WeekReleases;
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -748,43 +977,12 @@
 			};
 			name = Release;
 		};
-		65F1A7B38F798D4FE1667162C115B7BE /* Release */ = {
+		A8097245FDD26A55FC3FAF5F4E00028C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12B97505490E7BA4E5AD179E15A27F92 /* Pods-PS4WeekReleasesUITests.release.xcconfig */;
+			baseConfigurationReference = E527DA8FDEC774DDCA7D00EC480B60B4 /* Pods-PS4WeekReleasesTests.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PS4WeekReleasesUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PS4WeekReleasesUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		76C0083B8E2751529C5306728BA2E7C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27AEBE6CDD3043B8825B67AC239584CA /* Pods-PS4WeekReleasesTests.release.xcconfig */;
-			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -804,7 +1002,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PS4WeekReleasesTests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -814,64 +1012,43 @@
 			};
 			name = Release;
 		};
-		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+		AB6B2C32479F1AD6F2FC5E0438944327 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B821D69E0237568F3398FE9BDD78ECCE /* Pods-PS4WeekReleasesTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PS4WeekReleasesTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		B0F5F1530D3F4E518BE2B1A52F98487A /* Debug */ = {
+		EA0ADC75B20BB62958101306980460E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBB5BCD2C6B72857883CA09FFA81C023 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 85F77C2D680AEABD80131E1B54F72C5A /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -888,6 +1065,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -900,142 +1078,23 @@
 			};
 			name = Debug;
 		};
-		B8CA02655A4B738D82484691EE8CA58F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBB5BCD2C6B72857883CA09FFA81C023 /* Alamofire.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D2BBDA213FE7D3B37C5955A275BFA60B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DE16B2093A681675C7617530C339758 /* VegaScrollFlowLayout.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VegaScrollFlowLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VegaScrollFlowLayout/VegaScrollFlowLayout.modulemap";
-				PRODUCT_NAME = VegaScrollFlowLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ECFFF6F46180D30351305856563A40A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DD1616EFEE9AE66C6B3047176918E2B /* Pods-PS4WeekReleasesTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PS4WeekReleasesTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PS4WeekReleasesTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F05DDA56E596D585EE7A32B5F60174CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60ED9C02AA2A35222DEADE8FB0BC5948 /* Pods-PS4WeekReleasesUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PS4WeekReleasesUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PS4WeekReleasesUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
-				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+				9E88537B08ED4D6EB44DBA7BC8D56A35 /* Debug */,
+				30D948AE62C04225F8DEF8734A4C5A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356BA8DE36D3106EAD8A3EFA04FF86D6 /* Build configuration list for PBXNativeTarget "Pods-PS4WeekReleasesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5F26CD7D60FD621EC5E7B7D111D8C8 /* Debug */,
+				0EA9AED1A6B5333B579B5D56FE3C5171 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1043,8 +1102,8 @@
 		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0F5F1530D3F4E518BE2B1A52F98487A /* Debug */,
-				B8CA02655A4B738D82484691EE8CA58F /* Release */,
+				EA0ADC75B20BB62958101306980460E6 /* Debug */,
+				A18C9CC7E37563F2891E7DC87F2DE6CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1052,26 +1111,17 @@
 		77683550DA7CE8B0CF8D8B2EC4C1BABD /* Build configuration list for PBXNativeTarget "Pods-PS4WeekReleases" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CF043950C7867FA2838AE38F26BD93E /* Debug */,
-				489B3979CB3D69593EA83DF2EDABA418 /* Release */,
+				3FBE048D51582F938843CC964B7A9F26 /* Debug */,
+				7A5FFFD74FA9123A6AE4B1FF7A931EFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8E75B84854667AF52F3696589F4690C1 /* Build configuration list for PBXNativeTarget "Pods-PS4WeekReleasesTests" */ = {
+		96C885E2423A9F03B5651309B1AD586B /* Build configuration list for PBXNativeTarget "Pods-PS4WeekReleasesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECFFF6F46180D30351305856563A40A4 /* Debug */,
-				76C0083B8E2751529C5306728BA2E7C7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8EA115118CBAAFDD5661FFE9E2B97EA8 /* Build configuration list for PBXNativeTarget "Pods-PS4WeekReleasesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F05DDA56E596D585EE7A32B5F60174CB /* Debug */,
-				65F1A7B38F798D4FE1667162C115B7BE /* Release */,
+				AB6B2C32479F1AD6F2FC5E0438944327 /* Debug */,
+				A8097245FDD26A55FC3FAF5F4E00028C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1079,8 +1129,8 @@
 		E7D257229A304AC96BB442E4625B4E2C /* Build configuration list for PBXNativeTarget "VegaScrollFlowLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E81FE5F7DD7F97AFF4A7B30A67BFAD4 /* Debug */,
-				D2BBDA213FE7D3B37C5955A275BFA60B /* Release */,
+				52F69654D67BA4E42862138F9B5D3783 /* Debug */,
+				9DE2625FC90991411C4E824F5B5C940A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
