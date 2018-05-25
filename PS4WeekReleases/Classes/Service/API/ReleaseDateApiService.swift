@@ -31,6 +31,13 @@ class ReleaseDateApiService: ApiService {
                 }
                 
                 if let error = response.error {
+
+                    if let result = response.result.value {
+                        if let JSON = result as? NSDictionary {
+                            print(JSON)
+                        }
+                    }
+
                     if error as? AFError == nil {
                         failure(.connection)
                     } else {
@@ -84,7 +91,7 @@ class ReleaseDateApiService: ApiService {
 			params[APIParameterKey.order] = order
 		}
 		
-		params[APIParameterKey.region] = region
+		params[APIParameterKey.region] = region.rawValue
 		params[APIParameterKey.limit] = limit
 		
 		return params

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		143D97AB20B5C51200152BC5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143D97AA20B5C51200152BC5 /* Constants.swift */; };
 		14A9548B20B170AE0090F9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9548A20B170AE0090F9B5 /* AppDelegate.swift */; };
 		14A9548D20B170AE0090F9B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A9548C20B170AE0090F9B5 /* ViewController.swift */; };
 		14A9549020B170AE0090F9B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A9548E20B170AE0090F9B5 /* Main.storyboard */; };
@@ -24,6 +23,7 @@
 		14A954D520B33F7E0090F9B5 /* HTTPHeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D420B33F7E0090F9B5 /* HTTPHeaderField.swift */; };
 		14A954D720B342F60090F9B5 /* Date+Milisseconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D620B342F60090F9B5 /* Date+Milisseconds.swift */; };
 		14A954D920B34ADF0090F9B5 /* ReleaseDateApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */; };
+		14BF224A20B885CE00266BAF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF224920B885CE00266BAF /* Constants.swift */; };
 		1EF38320220D036F2C158FDF /* Pods_PS4WeekReleasesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */; };
 		33629A13415118ADDAD68497 /* Pods_PS4WeekReleasesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02D45561F47EE800C27712F /* Pods_PS4WeekReleasesTests.framework */; };
 		4A557C8678829A3A833EFE20 /* Pods_PS4WeekReleases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */; };
@@ -60,7 +60,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		143D97AA20B5C51200152BC5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		14A9548720B170AE0090F9B5 /* PS4WeekReleases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PS4WeekReleases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A9548A20B170AE0090F9B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14A9548C20B170AE0090F9B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +82,7 @@
 		14A954D420B33F7E0090F9B5 /* HTTPHeaderField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaderField.swift; sourceTree = "<group>"; };
 		14A954D620B342F60090F9B5 /* Date+Milisseconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Milisseconds.swift"; sourceTree = "<group>"; };
 		14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateApiService.swift; sourceTree = "<group>"; };
+		14BF224920B885CE00266BAF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleasesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		738701A99639B6A1AA75EFC5 /* Pods-PS4WeekReleases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleases.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases.release.xcconfig"; sourceTree = "<group>"; };
@@ -265,8 +265,8 @@
 				14A954CB20B338D50090F9B5 /* ApiService.swift */,
 				14A954D220B339FC0090F9B5 /* ApiRouter.swift */,
 				14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */,
-				143D97AA20B5C51200152BC5 /* Constants.swift */,
 				79CAC86120B822C500722869 /* ImageRouter.swift */,
+				14BF224920B885CE00266BAF /* Constants.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -658,10 +658,10 @@
 			files = (
 				79CAC86220B822C500722869 /* ImageRouter.swift in Sources */,
 				799E559A20B595B4005671EC /* Date+Day.swift in Sources */,
-				143D97AB20B5C51200152BC5 /* Constants.swift in Sources */,
 				14A9549320B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld in Sources */,
 				79CAC86020B80B5D00722869 /* ReleaseDateCell.swift in Sources */,
 				14A954CF20B339400090F9B5 /* Bundle.swift in Sources */,
+				14BF224A20B885CE00266BAF /* Constants.swift in Sources */,
 				7993007A20B84B5D00327B51 /* Platform.swift in Sources */,
 				14A954D520B33F7E0090F9B5 /* HTTPHeaderField.swift in Sources */,
 				14A954C620B1C67B0090F9B5 /* ReleaseDate.swift in Sources */,

@@ -44,7 +44,6 @@ enum ApiRouter: URLRequestConvertible {
 		case .releaseDate(let params):
 			do {
 				urlRequest = try URLEncoding.default.encode(urlRequest, with: params)
-				//urlRequest.httpBody = try JSONSerialization.data(withJSONObject: params, options: [])
 			} catch {
 				throw AFError.parameterEncodingFailed(reason: .jsonEncodingFailed(error: error))
 			}

@@ -21,13 +21,13 @@ class ReleaseDateService: Service<ReleaseDate> {
 	func getPlaystationWeek() {
 		let nextSundayMilliseconds = Date.today().next(.wednesday).millisecondsSince1970
 		let lastSundayMilliseconds = Date.today().previous(.wednesday).millisecondsSince1970
-		
-		/*if let fetchedData = dbFetch(dateGreater: lastSundayMilliseconds, dateSmaller: nextSundayMilliseconds) {
-			DispatchQueue.main.async {
-				self.delegate?.getPlaystationWeekDidComplete(releaseDates: fetchedData)
-			}
-			return
-		}*/
+
+        if let fetchedData = dbFetch(dateGreater: lastSundayMilliseconds, dateSmaller: nextSundayMilliseconds) {
+            DispatchQueue.main.async {
+                self.delegate?.getPlaystationWeekDidComplete(releaseDates: fetchedData)
+            }
+            return
+        }
 		
 		apiService.get(dateGreater: lastSundayMilliseconds, dateSmaller: nextSundayMilliseconds,
 				 platform: Platform.playstation4,
