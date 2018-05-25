@@ -14,13 +14,12 @@ class ReleaseDateApiService: ApiService {
 	// MARK: - Public
     
 	func get(
-        dateGreater: Double? = nil, dateSmaller: Double? = nil, platform: Int? = nil,
+        dateGreater: Double? = nil, dateSmaller: Double? = nil, platform: Platform? = nil,
         order: String? = nil, success: @escaping (Data, _ dateGreater: Double?, _ dateSmaller: Double?) -> Void,
         failure: @escaping (ServiceFailureType) -> Void) {
         
 		_ = self.sessionManager.request(
-			ApiRouter.releaseDate(params: parameters(dateGreater: dateGreater, dateSmaller: dateSmaller,
-													 platform: platform, order: order)))
+			ApiRouter.releaseDate(params: parameters(dateGreater: dateGreater, dateSmaller: dateSmaller, platform: platform, order: order)))
             .validate(statusCode: [200])
             .responseJSON { response in
 				
@@ -52,11 +51,13 @@ class ReleaseDateApiService: ApiService {
 		static let dateGreater = "filter[date][gte]"
 		static let dateSmaller = "filter[date][lt]"
 		static let expand = "expand"
+		static let region = "filter[region][eq]"
+		static let limit = "limit"
 	}
 	
 	private func parameters(
         dateGreater: Double? = nil, dateSmaller: Double? = nil,
-        platform: Int? = nil, order: String? = nil) -> [String: Any] {
+		platform: Platform? = nil, order: String? = nil, region: Region = Region.Worldwide, limit: Int = 50) -> [String: Any] {
         
 		var params: Parameters = [APIParameterKey.fields: "*",
 								   APIParameterKey.expand: "game",
@@ -72,12 +73,15 @@ class ReleaseDateApiService: ApiService {
 		}
 		
 		if let platform = platform {
-			params[APIParameterKey.platform] = platform
+			params[APIParameterKey.platform] = platform.rawValue
 		}
 		
 		if let order = order {
 			params[APIParameterKey.order] = order
 		}
+		
+		params[APIParameterKey.region] = region
+		params[APIParameterKey.limit] = limit
 		
 		return params
 	}

@@ -27,6 +27,8 @@
 		1EF38320220D036F2C158FDF /* Pods_PS4WeekReleasesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */; };
 		33629A13415118ADDAD68497 /* Pods_PS4WeekReleasesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02D45561F47EE800C27712F /* Pods_PS4WeekReleasesTests.framework */; };
 		4A557C8678829A3A833EFE20 /* Pods_PS4WeekReleases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */; };
+		7993007820B845D700327B51 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7993007720B845D700327B51 /* Region.swift */; };
+		7993007A20B84B5D00327B51 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7993007920B84B5D00327B51 /* Platform.swift */; };
 		799E559320B574B7005671EC /* APIServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559220B574B7005671EC /* APIServiceTest.swift */; };
 		799E559520B5767C005671EC /* ReleaseDateServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559420B5767C005671EC /* ReleaseDateServiceTest.swift */; };
 		799E559820B57DEC005671EC /* ReleaseDateApiServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559720B57DEC005671EC /* ReleaseDateApiServiceTest.swift */; };
@@ -85,6 +87,8 @@
 		4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		738701A99639B6A1AA75EFC5 /* Pods-PS4WeekReleases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleases.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases.release.xcconfig"; sourceTree = "<group>"; };
 		77D3BD06D789E84DE8504810 /* Pods-PS4WeekReleases.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleases.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases.debug.xcconfig"; sourceTree = "<group>"; };
+		7993007720B845D700327B51 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		7993007920B84B5D00327B51 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
 		799E559220B574B7005671EC /* APIServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTest.swift; sourceTree = "<group>"; };
 		799E559420B5767C005671EC /* ReleaseDateServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateServiceTest.swift; sourceTree = "<group>"; };
 		799E559620B57884005671EC /* PS4WeekReleasesTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PS4WeekReleasesTests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -227,6 +231,8 @@
 				14A954C320B1C5A50090F9B5 /* Game.swift */,
 				14A954C520B1C67B0090F9B5 /* ReleaseDate.swift */,
 				79B9173520B453F80065205C /* Cover.swift */,
+				7993007720B845D700327B51 /* Region.swift */,
+				7993007920B84B5D00327B51 /* Platform.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -576,6 +582,7 @@
 				14A9549320B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld in Sources */,
 				79CAC86020B80B5D00722869 /* ReleaseDateCell.swift in Sources */,
 				14A954CF20B339400090F9B5 /* Bundle.swift in Sources */,
+				7993007A20B84B5D00327B51 /* Platform.swift in Sources */,
 				14A954D520B33F7E0090F9B5 /* HTTPHeaderField.swift in Sources */,
 				14A954C620B1C67B0090F9B5 /* ReleaseDate.swift in Sources */,
 				14A954D920B34ADF0090F9B5 /* ReleaseDateApiService.swift in Sources */,
@@ -588,6 +595,7 @@
 				799E559D20B5A777005671EC /* WeekSearchStoreManager.swift in Sources */,
 				14A954D720B342F60090F9B5 /* Date+Milisseconds.swift in Sources */,
 				79B9173620B453F80065205C /* Cover.swift in Sources */,
+				7993007820B845D700327B51 /* Region.swift in Sources */,
 				14A954D320B339FC0090F9B5 /* ApiRouter.swift in Sources */,
 				14A954C920B334960090F9B5 /* Service.swift in Sources */,
 			);
