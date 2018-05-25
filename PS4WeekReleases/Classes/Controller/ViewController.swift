@@ -7,27 +7,70 @@
 //
 
 import UIKit
+import VegaScrollFlowLayout
+
+// MARK: - Configurable constants
+private let itemHeight: CGFloat = 84
+private let lineSpacing: CGFloat = 20
+private let xInset: CGFloat = 20
+private let topInset: CGFloat = 10
 
 class ViewController: UIViewController {
 	
+	fileprivate let cellId = "ReleaseDateCell"
 	let releaseDateService = ReleaseDateService()
-    
+	@IBOutlet weak var collectionView: UICollectionView!
+	fileprivate var releases: [ReleaseDate] = []
+	
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+		
+		let nib = UINib(nibName: cellId, bundle: nil)
+		collectionView.register( nib, forCellWithReuseIdentifier: cellId)
+		collectionView.contentInset.bottom = itemHeight
+		configureCollectionViewLayout()
+		
 		releaseDateService.delegate = self
 		releaseDateService.getPlaystationWeek()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+	private func setUpNavBar() {
+		navigationItem.title = "New Releases"
+		navigationController?.view.backgroundColor = UIColor.white
+		if #available(iOS 11.0, *) {
+			navigationController?.navigationBar.prefersLargeTitles = true
+		}
+	}
+	
+	private func configureCollectionViewLayout() {
+		guard let layout = collectionView.collectionViewLayout as? VegaScrollFlowLayout else { return }
+		layout.minimumLineSpacing = lineSpacing
+		layout.sectionInset = UIEdgeInsets(top: topInset, left: 0, bottom: 0, right: 0)
+		let itemWidth = UIScreen.main.bounds.width - 2 * xInset
+		layout.itemSize = CGSize(width: itemWidth, height: itemHeight)
+		collectionView.collectionViewLayout.invalidateLayout()
+	}
+}
+
+extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
+	func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+		
+		let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! ReleaseDateCell
+		let release = releases[indexPath.row]
+		cell.configureWith(release)
+		
+		return cell
+	}
+	
+	func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+		return releases.count
+	}
 }
 
 extension ViewController: ReleaseDateServiceDelegate {
 	func getPlaystationWeekDidComplete(releaseDates: [ReleaseDate]) {
-		print(releaseDates)
+		releases = releaseDates
+		self.collectionView.reloadData()
 	}
 	
 	func getPlaystationWeekDidComplete(failure: ServiceFailureType) {
