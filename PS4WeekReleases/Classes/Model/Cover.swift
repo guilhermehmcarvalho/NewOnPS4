@@ -10,6 +10,12 @@ import Foundation
 
 struct Cover: Decodable {
 	let url: String
+	let hash:String
 	let width: Int
 	let height: Int
+	
+	enum CodingKeys: String, CodingKey {
+		case hash = "cloudinary_id"
+		case url, width, height
+	}
 }

@@ -36,6 +36,8 @@
 		79B9173620B453F80065205C /* Cover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B9173520B453F80065205C /* Cover.swift */; };
 		79CAC85E20B8058500722869 /* ReleaseDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79CAC85D20B8058500722869 /* ReleaseDateCell.xib */; };
 		79CAC86020B80B5D00722869 /* ReleaseDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC85F20B80B5D00722869 /* ReleaseDateCell.swift */; };
+		79CAC86220B822C500722869 /* ImageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC86120B822C500722869 /* ImageRouter.swift */; };
+		79CAC86420B827F300722869 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC86320B827F300722869 /* ImageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,8 @@
 		79B9173520B453F80065205C /* Cover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cover.swift; sourceTree = "<group>"; };
 		79CAC85D20B8058500722869 /* ReleaseDateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReleaseDateCell.xib; sourceTree = "<group>"; };
 		79CAC85F20B80B5D00722869 /* ReleaseDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateCell.swift; sourceTree = "<group>"; };
+		79CAC86120B822C500722869 /* ImageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRouter.swift; sourceTree = "<group>"; };
+		79CAC86320B827F300722869 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		90BBDF5CC1D7F2E4D843ABB6 /* Pods-PS4WeekReleasesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4EDD68EE172A3E8B76C596F /* Pods-PS4WeekReleasesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests.release.xcconfig"; sourceTree = "<group>"; };
 		B033B0A34F643B7D8FBFB85E /* Pods-PS4WeekReleasesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -234,6 +238,7 @@
 				14A954C820B334960090F9B5 /* Service.swift */,
 				14A954D420B33F7E0090F9B5 /* HTTPHeaderField.swift */,
 				79B9173320B436E80065205C /* ReleaseDateService.swift */,
+				79CAC86320B827F300722869 /* ImageService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 				14A954D220B339FC0090F9B5 /* ApiRouter.swift */,
 				14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */,
 				143D97AA20B5C51200152BC5 /* Constants.swift */,
+				79CAC86120B822C500722869 /* ImageRouter.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -487,11 +493,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/VegaScrollFlowLayout/VegaScrollFlowLayout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VegaScrollFlowLayout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,6 +568,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CAC86220B822C500722869 /* ImageRouter.swift in Sources */,
 				799E559A20B595B4005671EC /* Date+Day.swift in Sources */,
 				143D97AB20B5C51200152BC5 /* Constants.swift in Sources */,
 				14A9549320B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld in Sources */,
@@ -572,6 +581,7 @@
 				14A9548B20B170AE0090F9B5 /* AppDelegate.swift in Sources */,
 				14A954C420B1C5A50090F9B5 /* Game.swift in Sources */,
 				79B9173420B436E80065205C /* ReleaseDateService.swift in Sources */,
+				79CAC86420B827F300722869 /* ImageService.swift in Sources */,
 				14A954CC20B338D50090F9B5 /* ApiService.swift in Sources */,
 				799E559D20B5A777005671EC /* WeekSearchStoreManager.swift in Sources */,
 				14A954D720B342F60090F9B5 /* Date+Milisseconds.swift in Sources */,

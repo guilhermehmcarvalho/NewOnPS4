@@ -1,20 +1,25 @@
 PODS:
   - Alamofire (4.6.0)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
   - VegaScrollFlowLayout (1.1)
 
 DEPENDENCIES:
   - Alamofire (~> 4.6.0)
+  - AlamofireImage (~> 3.3)
   - VegaScrollFlowLayout (~> 1.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - AlamofireImage
     - VegaScrollFlowLayout
 
 SPEC CHECKSUMS:
   Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
   VegaScrollFlowLayout: 9158061f29179147755f937c2b21693fc5dbbac3
 
-PODFILE CHECKSUM: ee637155b958ad685b66cf1384cb7597033ac6ff
+PODFILE CHECKSUM: 8425fde274c0bb0a316de6df174d29b3f0a853c1
 
 COCOAPODS: 1.5.2

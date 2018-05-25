@@ -13,5 +13,9 @@ extension Bundle {
     func apiBaseUrl() -> String {
         return object(forInfoDictionaryKey: "ApiBaseUrl") as? String ?? ""
     }
+	
+	func apiImageUrl() -> String {
+		return object(forInfoDictionaryKey: "ApiImageUrl") as? String ?? ""
+	}
     
 }

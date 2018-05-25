@@ -24,6 +24,7 @@ class ApiService {
     
     struct Params {
         static let baseUrl = URL(string: Bundle.main.apiBaseUrl())!
+		static let imageURL:String = Bundle.main.apiImageUrl()
 		static let timeout: Double = 15
     }
 }
