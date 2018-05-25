@@ -1,6 +1,0 @@
-framework module Pods_PS4WeekReleases {
-  umbrella header "Pods-PS4WeekReleases-umbrella.h"
-
-  export *
-  module * { export * }
-}
