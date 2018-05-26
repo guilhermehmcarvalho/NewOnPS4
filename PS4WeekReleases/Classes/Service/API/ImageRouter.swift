@@ -14,16 +14,19 @@ enum ImageRouter {
 	
 	// MARK: - Router
 	case coverBig
+    case logoMed
+    case thumb
 	
 	// MARK: - Public
 	
 	public func get(
-        hash: String, doubleSize: Bool, completionHandler: @escaping ((DataResponse<Image>) -> Void)) -> Request {
+        hash: String, retinaSize: RetinaSize? = nil,
+        completionHandler: @escaping ((DataResponse<Image>) -> Void)) -> Request {
 		
 		var url: String = ApiService.Params.imageURL
 		
 		url.append("/t_\(self.size())")
-		if doubleSize { url.append("_2x") }
+		if retinaSize != nil { url.append("_\(retinaSize!.rawValue)") }
 		url.append("/\(hash).png")
 		
 		return Alamofire.request(url).responseImage(completionHandler: completionHandler)
@@ -34,6 +37,8 @@ enum ImageRouter {
 	private func size() -> String {
         switch self {
         case .coverBig: return "cover_big"
+        case .logoMed: return "logo_med"
+        case .thumb: return "thumb"
         }
 	}
 }

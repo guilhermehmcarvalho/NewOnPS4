@@ -24,6 +24,8 @@
 		14A954D720B342F60090F9B5 /* Date+Milisseconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D620B342F60090F9B5 /* Date+Milisseconds.swift */; };
 		14A954D920B34ADF0090F9B5 /* ReleaseDateApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */; };
 		14BF224A20B885CE00266BAF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF224920B885CE00266BAF /* Constants.swift */; };
+		14BF224C20B88CF100266BAF /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF224B20B88CF100266BAF /* UIColors.swift */; };
+		14BF224E20B93B9700266BAF /* RetinaSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF224D20B93B9700266BAF /* RetinaSize.swift */; };
 		1EF38320220D036F2C158FDF /* Pods_PS4WeekReleasesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */; };
 		33629A13415118ADDAD68497 /* Pods_PS4WeekReleasesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02D45561F47EE800C27712F /* Pods_PS4WeekReleasesTests.framework */; };
 		4A557C8678829A3A833EFE20 /* Pods_PS4WeekReleases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */; };
@@ -83,6 +85,8 @@
 		14A954D620B342F60090F9B5 /* Date+Milisseconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Milisseconds.swift"; sourceTree = "<group>"; };
 		14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateApiService.swift; sourceTree = "<group>"; };
 		14BF224920B885CE00266BAF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		14BF224B20B88CF100266BAF /* UIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors.swift; sourceTree = "<group>"; };
+		14BF224D20B93B9700266BAF /* RetinaSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetinaSize.swift; sourceTree = "<group>"; };
 		2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleasesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		738701A99639B6A1AA75EFC5 /* Pods-PS4WeekReleases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleases.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases.release.xcconfig"; sourceTree = "<group>"; };
@@ -205,6 +209,7 @@
 				14A954CD20B339330090F9B5 /* Helper */,
 				14A954C120B1C5580090F9B5 /* Model */,
 				14A954C220B1C56B0090F9B5 /* Service */,
+				14BF224B20B88CF100266BAF /* UIColors.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 				79B9173520B453F80065205C /* Cover.swift */,
 				7993007720B845D700327B51 /* Region.swift */,
 				7993007920B84B5D00327B51 /* Platform.swift */,
+				14BF224D20B93B9700266BAF /* RetinaSize.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -657,6 +663,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79CAC86220B822C500722869 /* ImageRouter.swift in Sources */,
+				14BF224E20B93B9700266BAF /* RetinaSize.swift in Sources */,
 				799E559A20B595B4005671EC /* Date+Day.swift in Sources */,
 				14A9549320B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld in Sources */,
 				79CAC86020B80B5D00722869 /* ReleaseDateCell.swift in Sources */,
@@ -672,6 +679,7 @@
 				79B9173420B436E80065205C /* ReleaseDateService.swift in Sources */,
 				79CAC86420B827F300722869 /* ImageService.swift in Sources */,
 				14A954CC20B338D50090F9B5 /* ApiService.swift in Sources */,
+				14BF224C20B88CF100266BAF /* UIColors.swift in Sources */,
 				799E559D20B5A777005671EC /* WeekSearchStoreManager.swift in Sources */,
 				14A954D720B342F60090F9B5 /* Date+Milisseconds.swift in Sources */,
 				79B9173620B453F80065205C /* Cover.swift in Sources */,

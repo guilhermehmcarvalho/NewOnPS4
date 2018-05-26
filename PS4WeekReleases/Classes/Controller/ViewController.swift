@@ -11,7 +11,7 @@ import VegaScrollFlowLayout
 import NVActivityIndicatorView
 
 // MARK: - Configurable constants
-private let itemHeight: CGFloat = 204
+private let itemHeight: CGFloat = 304
 private let lineSpacing: CGFloat = 20
 private let xInset: CGFloat = 20
 private let topInset: CGFloat = 10
@@ -35,13 +35,13 @@ class ViewController: UIViewController {
 		
 		releaseDateService.delegate = self
 		activityIndicator.type = .pacman
-		activityIndicator.color = UIColor.blue
+		activityIndicator.color = UIColors.yellow
 		activityIndicator.startAnimating()
 		releaseDateService.getPlaystationWeek()
     }
 
 	private func setUpNavBar() {
-		navigationItem.title = "New Releases"
+		navigationItem.title = "New This Week"
 		navigationController?.view.backgroundColor = UIColor.white
 		if #available(iOS 11.0, *) {
 			navigationController?.navigationBar.prefersLargeTitles = true

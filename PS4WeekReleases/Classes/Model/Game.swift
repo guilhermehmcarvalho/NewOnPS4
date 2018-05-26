@@ -13,10 +13,14 @@ struct Game: Decodable {
     let name: String
     let summary: String?
 	let cover: Cover?
+    let url: String?
+    let popularity: Double
+    let rating: Double?
 
     enum CodingKeys: String, CodingKey {
         case gameID = "id"
-        case name, summary, cover
+        case rating = "aggregated_rating"
+        case name, summary, cover, url, popularity
     }
 
 }

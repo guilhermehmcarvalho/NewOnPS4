@@ -16,7 +16,7 @@ class ReleaseDateCell: UICollectionViewCell {
 	// MARK: - Variables
     
 	@IBOutlet weak var nameLabel: UILabel!
-	@IBOutlet weak var summarylabel: UILabel!
+	//@IBOutlet weak var publisherLabel: UILabel!
 	@IBOutlet weak var imageLabel: UIImageView!
 	@IBOutlet weak var activityIndicator: NVActivityIndicatorView!
 	let imageService = ImageService()
@@ -29,19 +29,20 @@ class ReleaseDateCell: UICollectionViewCell {
 		
 		imageService.delegate = self
 		
-		//categoryLabel.textColor = UIColor.gray
 		layer.cornerRadius = 14
 		layer.shadowColor = UIColor.black.cgColor
 		layer.shadowOpacity = 0.3
 		layer.shadowOffset = CGSize(width: 0, height: 5)
 		layer.masksToBounds = false
+        layer.backgroundColor = UIColors.black.cgColor
 		
 		activityIndicator.type = .pacman
+        activityIndicator.color = UIColors.yellow
 	}
 	
 	override func prepareForReuse() {
 		nameLabel.text = ""
-		summarylabel.text = ""
+		//summarylabel.text = ""
 		imageLabel.image = nil
 		request?.cancel()
 	}
@@ -50,10 +51,10 @@ class ReleaseDateCell: UICollectionViewCell {
 	
 	func configureWith(_ releaseDate: ReleaseDate) {
 		nameLabel.text = releaseDate.game.name
-		summarylabel.text = releaseDate.game.summary
+		//summarylabel.text = releaseDate.game.summary
 		
 		activityIndicator.startAnimating()
-		request = imageService.getImage(size: .coverBig, releaseDate: releaseDate)
+        request = imageService.getImage(size: .coverBig, releaseDate: releaseDate, retinaSize: RetinaSize.retina2x)
 	}
 }
 
