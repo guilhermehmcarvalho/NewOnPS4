@@ -26,6 +26,8 @@
 		14BF224A20B885CE00266BAF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF224920B885CE00266BAF /* Constants.swift */; };
 		14BF224C20B88CF100266BAF /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF224B20B88CF100266BAF /* UIColors.swift */; };
 		14BF224E20B93B9700266BAF /* RetinaSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF224D20B93B9700266BAF /* RetinaSize.swift */; };
+		14BF225020B9556600266BAF /* Website.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF224F20B9556600266BAF /* Website.swift */; };
+		14BF225220B955BF00266BAF /* WebsiteCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF225120B955BF00266BAF /* WebsiteCategory.swift */; };
 		1EF38320220D036F2C158FDF /* Pods_PS4WeekReleasesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */; };
 		33629A13415118ADDAD68497 /* Pods_PS4WeekReleasesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02D45561F47EE800C27712F /* Pods_PS4WeekReleasesTests.framework */; };
 		4A557C8678829A3A833EFE20 /* Pods_PS4WeekReleases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */; };
@@ -87,6 +89,8 @@
 		14BF224920B885CE00266BAF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		14BF224B20B88CF100266BAF /* UIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors.swift; sourceTree = "<group>"; };
 		14BF224D20B93B9700266BAF /* RetinaSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetinaSize.swift; sourceTree = "<group>"; };
+		14BF224F20B9556600266BAF /* Website.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Website.swift; sourceTree = "<group>"; };
+		14BF225120B955BF00266BAF /* WebsiteCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteCategory.swift; sourceTree = "<group>"; };
 		2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleasesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		738701A99639B6A1AA75EFC5 /* Pods-PS4WeekReleases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleases.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases.release.xcconfig"; sourceTree = "<group>"; };
@@ -239,6 +243,8 @@
 				7993007720B845D700327B51 /* Region.swift */,
 				7993007920B84B5D00327B51 /* Platform.swift */,
 				14BF224D20B93B9700266BAF /* RetinaSize.swift */,
+				14BF224F20B9556600266BAF /* Website.swift */,
+				14BF225120B955BF00266BAF /* WebsiteCategory.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -662,6 +668,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14BF225020B9556600266BAF /* Website.swift in Sources */,
 				79CAC86220B822C500722869 /* ImageRouter.swift in Sources */,
 				14BF224E20B93B9700266BAF /* RetinaSize.swift in Sources */,
 				799E559A20B595B4005671EC /* Date+Day.swift in Sources */,
@@ -674,6 +681,7 @@
 				14A954C620B1C67B0090F9B5 /* ReleaseDate.swift in Sources */,
 				14A954D920B34ADF0090F9B5 /* ReleaseDateApiService.swift in Sources */,
 				14A9548D20B170AE0090F9B5 /* ViewController.swift in Sources */,
+				14BF225220B955BF00266BAF /* WebsiteCategory.swift in Sources */,
 				14A9548B20B170AE0090F9B5 /* AppDelegate.swift in Sources */,
 				14A954C420B1C5A50090F9B5 /* Game.swift in Sources */,
 				79B9173420B436E80065205C /* ReleaseDateService.swift in Sources */,
