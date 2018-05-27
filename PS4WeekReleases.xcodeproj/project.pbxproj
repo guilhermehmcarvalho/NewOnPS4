@@ -24,10 +24,12 @@
 		14A954D720B342F60090F9B5 /* Date+Milisseconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D620B342F60090F9B5 /* Date+Milisseconds.swift */; };
 		14A954D920B34ADF0090F9B5 /* ReleaseDateApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */; };
 		14BF224A20B885CE00266BAF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF224920B885CE00266BAF /* Constants.swift */; };
-		14BF224C20B88CF100266BAF /* UIColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF224B20B88CF100266BAF /* UIColors.swift */; };
+		14BF224C20B88CF100266BAF /* UIColor+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF224B20B88CF100266BAF /* UIColor+App.swift */; };
 		14BF224E20B93B9700266BAF /* RetinaSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF224D20B93B9700266BAF /* RetinaSize.swift */; };
 		14BF225020B9556600266BAF /* Website.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF224F20B9556600266BAF /* Website.swift */; };
 		14BF225220B955BF00266BAF /* WebsiteCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF225120B955BF00266BAF /* WebsiteCategory.swift */; };
+		14E7804D20B9AA720005483C /* WeekSearchStoreManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7804C20B9AA720005483C /* WeekSearchStoreManagerTest.swift */; };
+		14E7804E20BA9F460005483C /* PS4WeekReleases.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14A9549120B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld */; };
 		1EF38320220D036F2C158FDF /* Pods_PS4WeekReleasesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */; };
 		33629A13415118ADDAD68497 /* Pods_PS4WeekReleasesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02D45561F47EE800C27712F /* Pods_PS4WeekReleasesTests.framework */; };
 		4A557C8678829A3A833EFE20 /* Pods_PS4WeekReleases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */; };
@@ -87,10 +89,11 @@
 		14A954D620B342F60090F9B5 /* Date+Milisseconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Milisseconds.swift"; sourceTree = "<group>"; };
 		14A954D820B34ADF0090F9B5 /* ReleaseDateApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateApiService.swift; sourceTree = "<group>"; };
 		14BF224920B885CE00266BAF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		14BF224B20B88CF100266BAF /* UIColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColors.swift; sourceTree = "<group>"; };
+		14BF224B20B88CF100266BAF /* UIColor+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+App.swift"; sourceTree = "<group>"; };
 		14BF224D20B93B9700266BAF /* RetinaSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetinaSize.swift; sourceTree = "<group>"; };
 		14BF224F20B9556600266BAF /* Website.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Website.swift; sourceTree = "<group>"; };
 		14BF225120B955BF00266BAF /* WebsiteCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteCategory.swift; sourceTree = "<group>"; };
+		14E7804C20B9AA720005483C /* WeekSearchStoreManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSearchStoreManagerTest.swift; sourceTree = "<group>"; };
 		2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleasesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		738701A99639B6A1AA75EFC5 /* Pods-PS4WeekReleases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleases.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases.release.xcconfig"; sourceTree = "<group>"; };
@@ -181,6 +184,7 @@
 		14A954A120B170AE0090F9B5 /* PS4WeekReleasesTests */ = {
 			isa = PBXGroup;
 			children = (
+				14E7804B20B9AA430005483C /* CoreData */,
 				799E558F20B5745D005671EC /* Service */,
 				14A954A420B170AE0090F9B5 /* Info.plist */,
 			);
@@ -213,7 +217,6 @@
 				14A954CD20B339330090F9B5 /* Helper */,
 				14A954C120B1C5580090F9B5 /* Model */,
 				14A954C220B1C56B0090F9B5 /* Service */,
-				14BF224B20B88CF100266BAF /* UIColors.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -286,11 +289,20 @@
 		14A954CD20B339330090F9B5 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				14BF224B20B88CF100266BAF /* UIColor+App.swift */,
 				14A954CE20B339400090F9B5 /* Bundle.swift */,
 				14A954D620B342F60090F9B5 /* Date+Milisseconds.swift */,
 				799E559920B595B4005671EC /* Date+Day.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		14E7804B20B9AA430005483C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				14E7804C20B9AA720005483C /* WeekSearchStoreManagerTest.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		799E558F20B5745D005671EC /* Service */ = {
@@ -425,7 +437,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = gcarvalho;
 				TargetAttributes = {
 					14A9548620B170AE0090F9B5 = {
@@ -687,7 +699,7 @@
 				79B9173420B436E80065205C /* ReleaseDateService.swift in Sources */,
 				79CAC86420B827F300722869 /* ImageService.swift in Sources */,
 				14A954CC20B338D50090F9B5 /* ApiService.swift in Sources */,
-				14BF224C20B88CF100266BAF /* UIColors.swift in Sources */,
+				14BF224C20B88CF100266BAF /* UIColor+App.swift in Sources */,
 				799E559D20B5A777005671EC /* WeekSearchStoreManager.swift in Sources */,
 				14A954D720B342F60090F9B5 /* Date+Milisseconds.swift in Sources */,
 				79B9173620B453F80065205C /* Cover.swift in Sources */,
@@ -701,8 +713,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E7804E20BA9F460005483C /* PS4WeekReleases.xcdatamodeld in Sources */,
 				799E559320B574B7005671EC /* APIServiceTest.swift in Sources */,
 				799E559520B5767C005671EC /* ReleaseDateServiceTest.swift in Sources */,
+				14E7804D20B9AA720005483C /* WeekSearchStoreManagerTest.swift in Sources */,
 				799E559820B57DEC005671EC /* ReleaseDateApiServiceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -764,6 +778,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -771,6 +786,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -821,6 +837,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -828,6 +845,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

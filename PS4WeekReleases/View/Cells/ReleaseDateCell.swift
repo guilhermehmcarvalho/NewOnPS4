@@ -34,10 +34,10 @@ class ReleaseDateCell: UICollectionViewCell {
 		layer.shadowOpacity = 0.3
 		layer.shadowOffset = CGSize(width: 0, height: 5)
 		layer.masksToBounds = false
-        layer.backgroundColor = UIColors.black.cgColor
+        layer.backgroundColor = UIColor.App.black.cgColor
 		
 		activityIndicator.type = .pacman
-        activityIndicator.color = UIColors.yellow
+        activityIndicator.color = UIColor.App.yellow
 	}
 	
 	override func prepareForReuse() {

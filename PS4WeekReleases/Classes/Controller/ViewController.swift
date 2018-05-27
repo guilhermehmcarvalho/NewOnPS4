@@ -35,7 +35,7 @@ class ViewController: UIViewController {
 		
 		releaseDateService.delegate = self
 		activityIndicator.type = .pacman
-		activityIndicator.color = UIColors.yellow
+		activityIndicator.color = UIColor.App.yellow
 		activityIndicator.startAnimating()
 		releaseDateService.getPlaystationWeek()
     }

@@ -28,7 +28,7 @@ class ReleaseDateApiServiceTest: APIServiceTest {
     
 	// MARK: - Private
 	
-	private func get(dateGreater: Double? = nil, dateSmaller: Double? = nil, platform: Int? = nil, order: String? = nil) {
+	private func get(dateGreater: Double? = nil, dateSmaller: Double? = nil, platform: Platform? = nil, order: String? = nil) {
 		service.get(dateGreater: dateGreater, dateSmaller: dateSmaller, platform: platform, order: order,
 		success: { data, _, _ in
 			do {
