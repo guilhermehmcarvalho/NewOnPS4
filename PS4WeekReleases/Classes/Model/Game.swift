@@ -14,9 +14,9 @@ struct Game: Decodable {
     let summary: String?
 	let cover: Cover?
     let url: String
-    let popularity: Double
+    let popularity: Double?
     let rating: Double?
-    let websites: [Website]
+    let websites: [Website]?
 
     enum CodingKeys: String, CodingKey {
         case gameID = "id"
@@ -25,6 +25,7 @@ struct Game: Decodable {
     }
 
     func getOficialWebsite() -> URL? {
+        guard let websites = websites else { return nil }
         for website in websites where website.category == WebsiteCategory.official.rawValue {
             return URL(string: website.url)
         }

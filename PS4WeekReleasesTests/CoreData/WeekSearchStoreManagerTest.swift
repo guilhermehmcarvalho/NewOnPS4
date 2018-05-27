@@ -92,9 +92,9 @@ class WeekSearchStoreManagerTest: XCTestCase {
         saveNotificationCompleteHandler?(notification)
     }
 
-    var saveNotificationCompleteHandler: ((Notification)->Void)?
+    var saveNotificationCompleteHandler: ((Notification) -> Void)?
 
-    func waitForSavedNotification(completeHandler: @escaping ((Notification)->Void) ) {
+    func waitForSavedNotification(completeHandler: @escaping ((Notification) -> Void) ) {
         saveNotificationCompleteHandler = completeHandler
     }
 
@@ -115,12 +115,11 @@ class WeekSearchStoreManagerTest: XCTestCase {
 
     func testSave() {
         let expect = expectation(description: "Context Saved")
-        waitForSavedNotification { (notification) in
+        waitForSavedNotification { _ in
             expect.fulfill()
         }
 
         sut.insertReleaseDate(dateGreater: 345, dateSmaller: 567, data: Data())
-
         //Assert save is called via notification (wait)
         waitForExpectations(timeout: 1, handler: nil)
     }

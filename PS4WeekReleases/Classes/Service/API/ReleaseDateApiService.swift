@@ -31,9 +31,9 @@ class ReleaseDateApiService: ApiService {
                 }
                 
                 if let error = response.error {
-
+                    
                     if let result = response.result.value {
-                        if let JSON = result as? NSDictionary {
+                        if let JSON = result as? [NSDictionary] {
                             print(JSON)
                         }
                     }
@@ -66,13 +66,12 @@ class ReleaseDateApiService: ApiService {
 	
 	private func parameters(
         dateGreater: Double? = nil, dateSmaller: Double? = nil,
-        platform: Platform? = nil, order: String? = nil,
+        platform: Platform? = nil, order: String? = "date:asc",
         region: Region = Region.worldwide,
         limit: Int = 50) -> [String: Any] {
         
 		var params: Parameters = [APIParameterKey.fields: "*",
-								   APIParameterKey.expand: "game",
-								   APIParameterKey.order: "date:asc"
+								   APIParameterKey.expand: "game"
 		]
 		
 		if let dateGreater = dateGreater {

@@ -28,13 +28,14 @@ class ReleaseDateApiServiceTest: APIServiceTest {
     
 	// MARK: - Private
 	
-	private func get(dateGreater: Double? = nil, dateSmaller: Double? = nil, platform: Platform? = nil, order: String? = nil) {
-		service.get(dateGreater: dateGreater, dateSmaller: dateSmaller, platform: platform, order: order,
+	private func get(dateGreater: Double? = nil, dateSmaller: Double? = nil) {
+		service.get(dateGreater: dateGreater, dateSmaller: dateSmaller,
 		success: { data, _, _ in
 			do {
 				_ = try JSONDecoder().decode([ReleaseDate].self, from: data)
 				self.success()
-			} catch {
+			} catch let error {
+                print("Parse error: \(error)")
 				self.failure(.server)
 			}
 		}, failure: { failure in

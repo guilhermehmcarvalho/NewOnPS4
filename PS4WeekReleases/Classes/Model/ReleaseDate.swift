@@ -11,7 +11,7 @@ import Foundation
 struct ReleaseDate: Decodable {
     let releaseID: Int
     let game: Game
-    let date: Double // Timestamp in miliseconds
+    let date: Double? // Timestamp in miliseconds
     let human: String // Human readable date
 
     enum CodingKeys: String, CodingKey {
