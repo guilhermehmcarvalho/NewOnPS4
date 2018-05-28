@@ -33,13 +33,14 @@ class ImageService {
 				if let image = response.result.value {
 					self.delegate?.getImageDidComplete(image: image)
 				} else {
-					debugPrint(response.result)
 					self.delegate?.getImageDidFail(failure: ServiceFailureType.server)
 				}
 			}
 		}
 	}
 }
+
+// MARK: - Delegate Protocol
 
 protocol ImageServiceDelegate: class {
 	func getImageDidComplete(image: UIImage)

@@ -11,7 +11,7 @@ import Alamofire
 
 class ApiService {
     
-    // MARK: - Variable
+    // MARK: - Variables
     
     let sessionManager: SessionManager = {
         let conf = URLSessionConfiguration.default

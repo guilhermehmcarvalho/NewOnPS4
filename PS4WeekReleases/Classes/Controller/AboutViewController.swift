@@ -10,10 +10,14 @@ import UIKit
 
 class AboutViewController: UIViewController {
 
+	// MARK: - Variables
+	
 	@IBOutlet weak var licensesText: UILabel!
 	@IBOutlet weak var contactText: UILabel!
 	@IBOutlet weak var aboutText: UILabel!
 	let texts = Texts()
+	
+	// MARK: - AboutViewController
 	
 	override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +25,8 @@ class AboutViewController: UIViewController {
         loadTexts()
 		setUpNavBar()
     }
+	
+	// MARK: - Private
 	
 	private func setUpNavBar() {
 		navigationItem.title = texts.title

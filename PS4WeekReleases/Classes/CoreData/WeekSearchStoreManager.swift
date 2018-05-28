@@ -33,7 +33,7 @@ class WeekSearchStoreManager: NSObject {
 	}()
 	
 	// MARK: - CRUD
-	//Create Retrieve Update Data
+	// Create Retrieve Update Data
 	
     @discardableResult func insertReleaseDate(dateGreater: Double, dateSmaller: Double, data: Data) -> WeekSearchData? {
 		guard let entity = NSEntityDescription.insertNewObject(forEntityName: "WeekSearchData", into: backgroundContext)

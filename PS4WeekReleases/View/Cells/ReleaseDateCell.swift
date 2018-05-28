@@ -22,7 +22,7 @@ class ReleaseDateCell: UICollectionViewCell {
 	let imageService = ImageService()
 	var request: Request?
 	
-	// MARK: - UICollectionViewCell
+	// MARK: - UIReleaseDateCell
 	
 	override func awakeFromNib() {
 		super.awakeFromNib()
@@ -57,6 +57,8 @@ class ReleaseDateCell: UICollectionViewCell {
         request = imageService.getImage(size: .coverBig, releaseDate: releaseDate, retinaSize: RetinaSize.retina2x)
 	}
 }
+
+// MARK: - ImageServiceDelegate
 
 extension ReleaseDateCell: ImageServiceDelegate {
 	func getImageDidComplete(image: UIImage) {

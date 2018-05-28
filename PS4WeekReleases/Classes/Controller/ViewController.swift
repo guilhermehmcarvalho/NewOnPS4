@@ -18,11 +18,15 @@ private let topInset: CGFloat = 10
 
 class ViewController: UIViewController {
 	
+	// MARK: - Variables
+	
 	fileprivate let cellId = "ReleaseDateCell"
 	let releaseDateService = ReleaseDateService()
 	@IBOutlet weak var collectionView: UICollectionView!
 	fileprivate var releases: [ReleaseDate] = []
 	@IBOutlet weak var activityIndicator: NVActivityIndicatorView!
+	
+	// MARK: - View Controller
 	
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +43,12 @@ class ViewController: UIViewController {
 		activityIndicator.startAnimating()
 		releaseDateService.getPlaystationWeek()
     }
+	
+	override func viewWillAppear(_ animated: Bool) {
+		setUpNavBar()
+	}
+	
+	// MARK: - Private
 
 	private func setUpNavBar() {
 		navigationItem.title = "New This Week"
@@ -46,10 +56,6 @@ class ViewController: UIViewController {
 		if #available(iOS 11.0, *) {
 			navigationController?.navigationBar.prefersLargeTitles = true
 		}
-	}
-	
-	override func viewWillAppear(_ animated: Bool) {
-		setUpNavBar()
 	}
 	
 	private func configureCollectionViewLayout() {
@@ -61,6 +67,8 @@ class ViewController: UIViewController {
 		collectionView.collectionViewLayout.invalidateLayout()
 	}
 }
+
+// MARK: - UICollectionView
 
 extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
 	func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -85,6 +93,8 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
 }
+
+// MARK: - ReleaseDateServiceDelegate
 
 extension ViewController: ReleaseDateServiceDelegate {
 	func getPlaystationWeekDidComplete(releaseDates: [ReleaseDate]) {

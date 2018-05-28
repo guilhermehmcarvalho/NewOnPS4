@@ -30,6 +30,8 @@ class Service<T: Decodable> {
     
 }
 
+// MARK: - Others
+
 enum ServiceFailureType {
     case connection
     case server

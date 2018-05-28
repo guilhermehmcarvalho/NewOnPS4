@@ -18,6 +18,10 @@ class ReleaseDateService: Service<ReleaseDate> {
 	
 	// MARK: - Public
 	
+	/**
+	Fetch games released between this wednesday and the next
+	The primary option is getting cached results, if they are not available, send a request API and then caches the result
+	*/
 	func getPlaystationWeek() {
 		let nextSundayMilliseconds = Date.today().next(.wednesday).millisecondsSince1970
 		let lastSundayMilliseconds = Date.today().previous(.wednesday).millisecondsSince1970
@@ -73,6 +77,8 @@ class ReleaseDateService: Service<ReleaseDate> {
 	}
 	
 }
+
+// MARK: - Delegate Protocol
 
 protocol ReleaseDateServiceDelegate: class {
 	func getPlaystationWeekDidComplete(releaseDates: [ReleaseDate])
