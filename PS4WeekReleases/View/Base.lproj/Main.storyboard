@@ -106,10 +106,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9rP-ft-qNv">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="169.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="CHT-W5-vWw">
-                                                <rect key="frame" x="16" y="24" width="343" height="148"/>
+                                                <rect key="frame" x="16" y="24" width="343" height="137.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New This Week PS4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p8d-Vs-k6H" userLabel="Title">
                                                         <rect key="frame" x="0.0" y="0.0" width="343" height="22"/>
@@ -121,20 +121,20 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPQ-09-TC7" userLabel="About">
-                                                        <rect key="frame" x="0.0" y="42" width="343" height="22"/>
-                                                        <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
+                                                        <rect key="frame" x="0.0" y="42" width="343" height="18.5"/>
+                                                        <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="14"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZy-G3-G6E" userLabel="Contact">
-                                                        <rect key="frame" x="0.0" y="84" width="343" height="22"/>
-                                                        <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
+                                                        <rect key="frame" x="0.0" y="80.5" width="343" height="18.5"/>
+                                                        <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="14"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licenses" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="My6-wZ-bcb">
-                                                        <rect key="frame" x="0.0" y="126" width="343" height="22"/>
-                                                        <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="17"/>
+                                                        <rect key="frame" x="0.0" y="119" width="343" height="18.5"/>
+                                                        <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="14"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -143,6 +143,7 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="CHT-W5-vWw" secondAttribute="bottom" constant="8" id="2v1-hA-5NP"/>
                                             <constraint firstItem="CHT-W5-vWw" firstAttribute="leading" secondItem="9rP-ft-qNv" secondAttribute="leadingMargin" constant="8" id="EBV-NI-geS"/>
                                             <constraint firstItem="CHT-W5-vWw" firstAttribute="top" secondItem="9rP-ft-qNv" secondAttribute="topMargin" constant="16" id="Nkl-54-9dt"/>
                                             <constraint firstAttribute="trailingMargin" secondItem="CHT-W5-vWw" secondAttribute="trailing" constant="8" id="xn0-gB-bV3"/>
@@ -154,7 +155,6 @@
                                     <constraint firstAttribute="bottom" secondItem="9rP-ft-qNv" secondAttribute="bottom" id="dW2-T7-GZL"/>
                                     <constraint firstItem="9rP-ft-qNv" firstAttribute="top" secondItem="3SV-BE-nkY" secondAttribute="top" id="nQv-RX-XwU"/>
                                     <constraint firstItem="9rP-ft-qNv" firstAttribute="leading" secondItem="3SV-BE-nkY" secondAttribute="leading" id="r6C-W5-uqp"/>
-                                    <constraint firstItem="9rP-ft-qNv" firstAttribute="height" secondItem="3SV-BE-nkY" secondAttribute="height" id="tG3-lA-oPx"/>
                                 </constraints>
                             </scrollView>
                         </subviews>

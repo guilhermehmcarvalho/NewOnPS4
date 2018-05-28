@@ -17,10 +17,9 @@ extension AboutViewController {
 		
 		public let about = """
 
-NEW THIS WEEK PS4
-
 Open source software available under MIT license at
 https://github.com/guilhermehmcarvalho/PS4WeekReleases
+
 """
 		
 		
@@ -28,11 +27,11 @@ https://github.com/guilhermehmcarvalho/PS4WeekReleases
 Created by Guilherme Carvalho
 https://github.com/guilhermehmcarvalho
 https://twitter.com/_gui
+
 """
 		
 		public let licenses = """
 This software was created using the following open source 3rd party libraries:
-
 
 NVActivityIndicatorView
 
