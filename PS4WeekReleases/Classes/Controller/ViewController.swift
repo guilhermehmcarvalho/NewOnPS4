@@ -31,7 +31,7 @@ class ViewController: UIViewController {
 		collectionView.register( nib, forCellWithReuseIdentifier: cellId)
 		collectionView.contentInset.bottom = itemHeight
 		configureCollectionViewLayout()
-		setUpNavBar()
+		//setUpNavBar()
 		
 		releaseDateService.delegate = self
 		activityIndicator.type = .pacman
@@ -42,10 +42,14 @@ class ViewController: UIViewController {
 
 	private func setUpNavBar() {
 		navigationItem.title = "New This Week"
-		navigationController?.view.backgroundColor = UIColor.white
+		navigationController?.view.backgroundColor = UIColor.black
 		if #available(iOS 11.0, *) {
 			navigationController?.navigationBar.prefersLargeTitles = true
 		}
+	}
+	
+	override func viewWillAppear(_ animated: Bool) {
+		setUpNavBar()
 	}
 	
 	private func configureCollectionViewLayout() {

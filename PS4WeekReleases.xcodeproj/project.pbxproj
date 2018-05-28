@@ -35,6 +35,8 @@
 		4A557C8678829A3A833EFE20 /* Pods_PS4WeekReleases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */; };
 		7993007820B845D700327B51 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7993007720B845D700327B51 /* Region.swift */; };
 		7993007A20B84B5D00327B51 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7993007920B84B5D00327B51 /* Platform.swift */; };
+		799C575A20BC08A40083FF54 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799C575920BC08A40083FF54 /* AboutViewController.swift */; };
+		799C575C20BC090B0083FF54 /* AboutViewController+Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799C575B20BC090B0083FF54 /* AboutViewController+Texts.swift */; };
 		799E559320B574B7005671EC /* APIServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559220B574B7005671EC /* APIServiceTest.swift */; };
 		799E559520B5767C005671EC /* ReleaseDateServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559420B5767C005671EC /* ReleaseDateServiceTest.swift */; };
 		799E559820B57DEC005671EC /* ReleaseDateApiServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E559720B57DEC005671EC /* ReleaseDateApiServiceTest.swift */; };
@@ -100,6 +102,8 @@
 		77D3BD06D789E84DE8504810 /* Pods-PS4WeekReleases.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleases.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases.debug.xcconfig"; sourceTree = "<group>"; };
 		7993007720B845D700327B51 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
 		7993007920B84B5D00327B51 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		799C575920BC08A40083FF54 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		799C575B20BC090B0083FF54 /* AboutViewController+Texts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AboutViewController+Texts.swift"; sourceTree = "<group>"; };
 		799E559220B574B7005671EC /* APIServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTest.swift; sourceTree = "<group>"; };
 		799E559420B5767C005671EC /* ReleaseDateServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateServiceTest.swift; sourceTree = "<group>"; };
 		799E559620B57884005671EC /* PS4WeekReleasesTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PS4WeekReleasesTests-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -225,6 +229,8 @@
 			isa = PBXGroup;
 			children = (
 				14A9548C20B170AE0090F9B5 /* ViewController.swift */,
+				799C575920BC08A40083FF54 /* AboutViewController.swift */,
+				799C575B20BC090B0083FF54 /* AboutViewController+Texts.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -377,7 +383,6 @@
 				14A9548520B170AE0090F9B5 /* Resources */,
 				3AD638A2306D2949F30C1A51 /* [CP] Embed Pods Frameworks */,
 				14A954BC20B171E90090F9B5 /* Swift Lint */,
-				35B0DF510F5515708D4C058A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -396,8 +401,6 @@
 				14A9549A20B170AE0090F9B5 /* Sources */,
 				14A9549B20B170AE0090F9B5 /* Frameworks */,
 				14A9549C20B170AE0090F9B5 /* Resources */,
-				C23FC7C0D3567809B8009792 /* [CP] Embed Pods Frameworks */,
-				3EE5469E9180FDB23E4A9FB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -417,8 +420,6 @@
 				14A954A520B170AE0090F9B5 /* Sources */,
 				14A954A620B170AE0090F9B5 /* Frameworks */,
 				14A954A720B170AE0090F9B5 /* Resources */,
-				9871DB4708A85C701562FD48 /* [CP] Embed Pods Frameworks */,
-				63B0DFC63253D5293B5D6A00 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -520,21 +521,6 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
-		35B0DF510F5515708D4C058A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3AD638A2306D2949F30C1A51 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -557,51 +543,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3EE5469E9180FDB23E4A9FB5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		63B0DFC63253D5293B5D6A00 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9871DB4708A85C701562FD48 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD48C81F70BF2BB06A80D904 /* [CP] Check Pods Manifest.lock */ = {
@@ -638,21 +579,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C23FC7C0D3567809B8009792 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CEF755B41FABB6458C54460E /* [CP] Check Pods Manifest.lock */ = {
@@ -692,6 +618,7 @@
 				14A954D520B33F7E0090F9B5 /* HTTPHeaderField.swift in Sources */,
 				14A954C620B1C67B0090F9B5 /* ReleaseDate.swift in Sources */,
 				14A954D920B34ADF0090F9B5 /* ReleaseDateApiService.swift in Sources */,
+				799C575A20BC08A40083FF54 /* AboutViewController.swift in Sources */,
 				14A9548D20B170AE0090F9B5 /* ViewController.swift in Sources */,
 				14BF225220B955BF00266BAF /* WebsiteCategory.swift in Sources */,
 				14A9548B20B170AE0090F9B5 /* AppDelegate.swift in Sources */,
@@ -702,6 +629,7 @@
 				14BF224C20B88CF100266BAF /* UIColor+App.swift in Sources */,
 				799E559D20B5A777005671EC /* WeekSearchStoreManager.swift in Sources */,
 				14A954D720B342F60090F9B5 /* Date+Milisseconds.swift in Sources */,
+				799C575C20BC090B0083FF54 /* AboutViewController+Texts.swift in Sources */,
 				79B9173620B453F80065205C /* Cover.swift in Sources */,
 				7993007820B845D700327B51 /* Region.swift in Sources */,
 				14A954D320B339FC0090F9B5 /* ApiRouter.swift in Sources */,
