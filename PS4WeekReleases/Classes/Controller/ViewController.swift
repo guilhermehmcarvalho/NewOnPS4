@@ -51,7 +51,7 @@ class ViewController: UIViewController {
 	// MARK: - Private
 
 	private func setUpNavBar() {
-		navigationItem.title = "New This Week"
+		navigationItem.title = "New on PS4"
 		navigationController?.view.backgroundColor = UIColor.black
 		if #available(iOS 11.0, *) {
 			navigationController?.navigationBar.prefersLargeTitles = true
