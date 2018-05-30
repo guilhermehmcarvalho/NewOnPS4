@@ -1,0 +1,8 @@
+app_identifier("io.gcarvalho.PS4WeekReleases") # The bundle identifier of your app
+apple_id("toad02@gmail.com") # Your Apple email address
+
+itc_team_id("118999366") # iTunes Connect Team ID
+team_id("XQLTE359NY") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

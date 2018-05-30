@@ -13,7 +13,6 @@
 		14A9549320B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14A9549120B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld */; };
 		14A9549520B170AE0090F9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A9549420B170AE0090F9B5 /* Assets.xcassets */; };
 		14A9549820B170AE0090F9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A9549620B170AE0090F9B5 /* LaunchScreen.storyboard */; };
-		14A954AE20B170AE0090F9B5 /* PS4WeekReleasesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954AD20B170AE0090F9B5 /* PS4WeekReleasesUITests.swift */; };
 		14A954C420B1C5A50090F9B5 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954C320B1C5A50090F9B5 /* Game.swift */; };
 		14A954C620B1C67B0090F9B5 /* ReleaseDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954C520B1C67B0090F9B5 /* ReleaseDate.swift */; };
 		14A954C920B334960090F9B5 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A954C820B334960090F9B5 /* Service.swift */; };
@@ -30,6 +29,8 @@
 		14BF225220B955BF00266BAF /* WebsiteCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF225120B955BF00266BAF /* WebsiteCategory.swift */; };
 		14E7804D20B9AA720005483C /* WeekSearchStoreManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7804C20B9AA720005483C /* WeekSearchStoreManagerTest.swift */; };
 		14E7804E20BA9F460005483C /* PS4WeekReleases.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14A9549120B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld */; };
+		14E7805120BDD7DC0005483C /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7805020BDD7DC0005483C /* SnapshotHelper.swift */; };
+		14E7805520BDDA300005483C /* TestScreenshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7805420BDDA300005483C /* TestScreenshots.swift */; };
 		1EF38320220D036F2C158FDF /* Pods_PS4WeekReleasesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */; };
 		33629A13415118ADDAD68497 /* Pods_PS4WeekReleasesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02D45561F47EE800C27712F /* Pods_PS4WeekReleasesTests.framework */; };
 		4A557C8678829A3A833EFE20 /* Pods_PS4WeekReleases.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */; };
@@ -79,7 +80,6 @@
 		14A9549E20B170AE0090F9B5 /* PS4WeekReleasesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PS4WeekReleasesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A954A420B170AE0090F9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A954A920B170AE0090F9B5 /* PS4WeekReleasesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PS4WeekReleasesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14A954AD20B170AE0090F9B5 /* PS4WeekReleasesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PS4WeekReleasesUITests.swift; sourceTree = "<group>"; };
 		14A954AF20B170AE0090F9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14A954C320B1C5A50090F9B5 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		14A954C520B1C67B0090F9B5 /* ReleaseDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDate.swift; sourceTree = "<group>"; };
@@ -96,6 +96,9 @@
 		14BF224F20B9556600266BAF /* Website.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Website.swift; sourceTree = "<group>"; };
 		14BF225120B955BF00266BAF /* WebsiteCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteCategory.swift; sourceTree = "<group>"; };
 		14E7804C20B9AA720005483C /* WeekSearchStoreManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSearchStoreManagerTest.swift; sourceTree = "<group>"; };
+		14E7804F20BDD7DB0005483C /* PS4WeekReleasesUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PS4WeekReleasesUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		14E7805020BDD7DC0005483C /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
+		14E7805420BDDA300005483C /* TestScreenshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScreenshots.swift; sourceTree = "<group>"; };
 		2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleasesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		738701A99639B6A1AA75EFC5 /* Pods-PS4WeekReleases.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleases.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases.release.xcconfig"; sourceTree = "<group>"; };
@@ -198,8 +201,10 @@
 		14A954AC20B170AE0090F9B5 /* PS4WeekReleasesUITests */ = {
 			isa = PBXGroup;
 			children = (
-				14A954AD20B170AE0090F9B5 /* PS4WeekReleasesUITests.swift */,
+				14E7805020BDD7DC0005483C /* SnapshotHelper.swift */,
 				14A954AF20B170AE0090F9B5 /* Info.plist */,
+				14E7804F20BDD7DB0005483C /* PS4WeekReleasesUITests-Bridging-Header.h */,
+				14E7805420BDDA300005483C /* TestScreenshots.swift */,
 			);
 			path = PS4WeekReleasesUITests;
 			sourceTree = "<group>";
@@ -458,6 +463,7 @@
 					};
 					14A954A820B170AE0090F9B5 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 14A9548620B170AE0090F9B5;
 					};
@@ -733,7 +739,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14A954AE20B170AE0090F9B5 /* PS4WeekReleasesUITests.swift in Sources */,
+				14E7805120BDD7DC0005483C /* SnapshotHelper.swift in Sources */,
+				14E7805520BDDA300005483C /* TestScreenshots.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -961,12 +968,15 @@
 			baseConfigurationReference = 90BBDF5CC1D7F2E4D843ABB6 /* Pods-PS4WeekReleasesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XQLTE359NY;
 				INFOPLIST_FILE = PS4WeekReleasesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.gcarvalho.PS4WeekReleasesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PS4WeekReleasesUITests/PS4WeekReleasesUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PS4WeekReleases;
@@ -978,12 +988,14 @@
 			baseConfigurationReference = B033B0A34F643B7D8FBFB85E /* Pods-PS4WeekReleasesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XQLTE359NY;
 				INFOPLIST_FILE = PS4WeekReleasesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.gcarvalho.PS4WeekReleasesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PS4WeekReleasesUITests/PS4WeekReleasesUITests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PS4WeekReleases;
