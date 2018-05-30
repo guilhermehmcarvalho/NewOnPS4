@@ -1,4 +1,5 @@
 excluded:
   - Pods
+  - PS4WeekReleasesUITests/SnapshotHelper.swift
 disabled_rules:
  - trailing_whitespace
