@@ -29,13 +29,11 @@ class ReleaseDateServiceTest: APIServiceTest {
 }
 
 extension ReleaseDateServiceTest: ReleaseDateServiceDelegate {
-	
+    func getPlaystationWeekDidComplete(games: [Game]) {
+        self.success()
+    }
+    
 	func getPlaystationWeekDidComplete(failure: ServiceFailureType) {
 		self.failure(failure)
 	}
-	
-	func getPlaystationWeekDidComplete(releaseDates: [ReleaseDate]) {
-		self.success()
-	}
-	
 }
