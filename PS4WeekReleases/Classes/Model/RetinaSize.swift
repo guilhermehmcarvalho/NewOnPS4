@@ -10,5 +10,4 @@ import Foundation
 
 enum RetinaSize: String {
     case retina2x = "2x"
-    case retina3x = "3x"
 }
