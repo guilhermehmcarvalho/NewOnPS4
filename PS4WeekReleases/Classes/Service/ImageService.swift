@@ -17,8 +17,8 @@ class ImageService {
 	
 	// MARK: - Public
 	
-	func getImage(size: ImageRouter, releaseDate: ReleaseDate, retinaSize: RetinaSize? = nil) -> Request? {
-		if let hash = releaseDate.game.cover?.hash {
+	func getImage(size: ImageRouter, game: Game, retinaSize: RetinaSize? = nil) -> Request? {
+		if let hash = game.cover?.hash {
             return self.getImage(size: size, hash: hash, retinaSize: retinaSize)
 		} else {
 			delegate?.getImageDidFail(failure: ServiceFailureType.server)
