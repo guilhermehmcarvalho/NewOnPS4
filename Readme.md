@@ -54,8 +54,8 @@ pod install
 open BitPrice.xcworkspace
 
 # add API Key
-replace the key at /Classes/Service/Api/with a key of your own
-You can get a key at https://api.igdb.com/
+replace the key at /Classes/Service/Api/ with a key of your own
+If you don't have one, you can get it at https://api.igdb.com/
 ```
 
 ### Optional Steps
