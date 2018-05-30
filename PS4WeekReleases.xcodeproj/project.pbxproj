@@ -388,7 +388,6 @@
 				14A9548520B170AE0090F9B5 /* Resources */,
 				3AD638A2306D2949F30C1A51 /* [CP] Embed Pods Frameworks */,
 				14A954BC20B171E90090F9B5 /* Swift Lint */,
-				AB78C812A013A7E0180A7AD9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -407,8 +406,6 @@
 				14A9549A20B170AE0090F9B5 /* Sources */,
 				14A9549B20B170AE0090F9B5 /* Frameworks */,
 				14A9549C20B170AE0090F9B5 /* Resources */,
-				00F136B69F4B2C1FF08850C4 /* [CP] Embed Pods Frameworks */,
-				3D8D8DA2647574383623CFBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -428,8 +425,6 @@
 				14A954A520B170AE0090F9B5 /* Sources */,
 				14A954A620B170AE0090F9B5 /* Frameworks */,
 				14A954A720B170AE0090F9B5 /* Resources */,
-				3766DC6796A368C233B40EE2 /* [CP] Embed Pods Frameworks */,
-				E8EE607AB06D406E308C7E21 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -518,21 +513,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00F136B69F4B2C1FF08850C4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		14A954BC20B171E90090F9B5 /* Swift Lint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,21 +526,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
-		};
-		3766DC6796A368C233B40EE2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 		3AD638A2306D2949F30C1A51 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -584,36 +549,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3D8D8DA2647574383623CFBC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AB78C812A013A7E0180A7AD9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleases/Pods-PS4WeekReleases-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD48C81F70BF2BB06A80D904 /* [CP] Check Pods Manifest.lock */ = {
@@ -668,21 +603,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E8EE607AB06D406E308C7E21 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
