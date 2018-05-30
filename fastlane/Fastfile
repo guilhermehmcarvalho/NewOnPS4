@@ -36,7 +36,7 @@ platform :ios do
 
     desc "Runs all the tests"
         lane :test do
-        run_tests(scheme: "PS4WeekReleases")
+        scan(scheme: "PS4WeekReleases")
     end
 
     after_all do |lane|
