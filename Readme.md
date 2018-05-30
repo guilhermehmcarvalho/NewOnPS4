@@ -29,7 +29,9 @@ New on PS4 uses a number of open source projects to work properly:
 * NVActivityIndicatorView - https://github.com/ninjaprox/NVActivityIndicatorView
 * SwiftLint - https://github.com/realm/SwiftLint
 * Fastlane - https://github.com/fastlane/fastlane
-* Travis CI - https://github.com/travis-ci/travis-ci
+* Travis CI - https://travis-ci.org/guilhermehmcarvalho/NewOnPS4
+* Codecov - https://codecov.io/gh/guilhermehmcarvalho/NewOnPS4
+* Codebeat - https://codebeat.co/projects/github-com-guilhermehmcarvalho-newonps4-master
 
 
 ### Installation
@@ -50,11 +52,8 @@ pod install
 open BitPrice.xcworkspace
 
 # add API Key
-create a file under /Classes/Service/Api/ names Constants.swift with the following code
-struct Constants {
-	internal static let APIKey = "YOUR KEY HERE"
-}
-You can get a key at 
+replace the key at /Classes/Service/Api/with a key of your own
+You can get a key at https://api.igdb.com/
 ```
 
 ### Optional Steps
