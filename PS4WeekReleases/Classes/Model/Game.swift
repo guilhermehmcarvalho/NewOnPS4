@@ -9,6 +9,9 @@
 import Foundation
 
 struct Game: Decodable {
+    
+    // MARK: - Variables
+    
     let gameID: Int
     let name: String
     let summary: String?
@@ -32,5 +35,14 @@ struct Game: Decodable {
 
         return nil
     }
+}
 
+extension Game: Hashable {
+    var hashValue: Int {
+        return gameID.hashValue ^ name.hashValue
+    }
+    
+    static func == (lhs: Game, rhs: Game) -> Bool {
+        return lhs.hashValue == rhs.hashValue
+    }
 }
