@@ -28,7 +28,8 @@ class ReleaseDateService: Service<ReleaseDate> {
 
         if let fetchedData = dbFetch(dateGreater: lastSundayMilliseconds, dateSmaller: nextSundayMilliseconds) {
             DispatchQueue.main.async {
-                self.delegate?.getPlaystationWeekDidComplete(releaseDates: fetchedData)
+                let games = self.getGamesFromReleaseDates(releaseDates: fetchedData)
+                self.delegate?.getPlaystationWeekDidComplete(games: games)
             }
             return
         }
@@ -44,7 +45,8 @@ class ReleaseDateService: Service<ReleaseDate> {
 	private func success(data: Data, dateGreater: Double?, dateSmaller: Double?) {
 		DispatchQueue.main.async {
 			if let releaseDates = self.jsonDecodeArray(data: data) {
-				self.delegate?.getPlaystationWeekDidComplete(releaseDates: releaseDates)
+                let games = self.getGamesFromReleaseDates(releaseDates: releaseDates)
+				self.delegate?.getPlaystationWeekDidComplete(games: games)
 				if dateGreater != nil && dateSmaller != nil {
 					self.dbInsert(dateGreater: dateGreater!, dateSmaller: dateSmaller!, data: data)
 				}
@@ -53,6 +55,14 @@ class ReleaseDateService: Service<ReleaseDate> {
 			}
 		}
 	}
+    
+    private func getGamesFromReleaseDates(releaseDates: [ReleaseDate]) -> [Game] {
+        var buffer = [Game]()
+        for elem in releaseDates {
+            buffer.append(elem.game)
+        }
+        return Array(Set(buffer))
+    }
 	
 	private func failure(_ failure: ServiceFailureType) {
 		DispatchQueue.main.async {
@@ -81,6 +91,6 @@ class ReleaseDateService: Service<ReleaseDate> {
 // MARK: - Delegate Protocol
 
 protocol ReleaseDateServiceDelegate: class {
-	func getPlaystationWeekDidComplete(releaseDates: [ReleaseDate])
+	func getPlaystationWeekDidComplete(games: [Game])
 	func getPlaystationWeekDidComplete(failure: ServiceFailureType)
 }
