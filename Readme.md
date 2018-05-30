@@ -4,6 +4,7 @@
 [![Platform][platform-badge]][platform-url]
 [![Build Status][build-badge]][build-url]
 [![codecov][codecov-badge]][codecov-url]
+[![Codebeat][codebeat-badge]][codebeat-url]
 
 New on PS4 is an iOS app to check the newest games released on PS4.
 The app uses IGDB.com's API to provide the data.
@@ -81,3 +82,5 @@ MIT
 [codecov-url]: https://codecov.io/gh/guilhermehmcarvalho/NewOnPS4
 [build-badge]: https://travis-ci.org/guilhermehmcarvalho/PS4WeekReleases.svg?branch=master
 [build-url]: https://travis-ci.org/guilhermehmcarvalho/PS4WeekReleases
+[codebeat-badge]: https://codebeat.co/badges/47b185ce-c2a6-4101-9abe-ed0e3bdc2293
+[codebeat-url]: https://codebeat.co/projects/github-com-guilhermehmcarvalho-newonps4-master
