@@ -52,9 +52,13 @@ class WeekSearchStoreManagerTest: XCTestCase {
 
             return entity as? WeekSearchData
         }
+		
+		guard let jsonData = "json".data(using: .utf8) else {
+			return
+		}
 
-        _ = insertReleaseDate(dateGreater: 123, dateSmaller: 234, data: Data())
-        _ = insertReleaseDate(dateGreater: 234, dateSmaller: 345, data: Data())
+		_ = insertReleaseDate(dateGreater: 123, dateSmaller: 234, data: jsonData)
+        _ = insertReleaseDate(dateGreater: 234, dateSmaller: 345, data: jsonData)
 
         do {
             try mockPersistantContainer.viewContext.save()
