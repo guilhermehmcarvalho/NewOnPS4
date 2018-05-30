@@ -6,7 +6,9 @@
 [![codecov][codecov-badge]][codecov-url]
 [![Codebeat][codebeat-badge]][codebeat-url]
 
-New on PS4 is an iOS app to check the newest games released on PS4.
+![2014-10-22 11_35_09](https://thumbs.gfycat.com/SomeDetailedErmine-size_restricted.gif)
+
+New on PS4 shows on your iOS device the newest games released on Playstation 4.
 The app uses IGDB.com's API to provide the data.
 
 
