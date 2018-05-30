@@ -66,8 +66,8 @@ class ReleaseDateApiService: ApiService {
 	
 	private func parameters(
         dateGreater: Double? = nil, dateSmaller: Double? = nil,
-        platform: Platform? = nil, order: String? = "date:asc",
-        region: Region = Region.worldwide,
+        platform: Platform? = nil, order: String? = "popularity:desc",
+        region: Region? = nil,
         limit: Int = 50) -> [String: Any] {
         
 		var params: Parameters = [APIParameterKey.fields: "*",
@@ -90,7 +90,10 @@ class ReleaseDateApiService: ApiService {
 			params[APIParameterKey.order] = order
 		}
 		
-		params[APIParameterKey.region] = region.rawValue
+        if let region = region {
+            params[APIParameterKey.region] = region.rawValue
+        }
+        
 		params[APIParameterKey.limit] = limit
 		
 		return params
