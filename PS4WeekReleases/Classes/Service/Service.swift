@@ -15,7 +15,8 @@ class Service<T: Decodable> {
     func jsonDecode(data: Data) -> T? {
         do {
             return try JSONDecoder().decode(T.self, from: data)
-        } catch {
+        } catch let error {
+			print("Error @ Service/jsonDecode: \(error)")
             return nil
         }
     }
@@ -23,7 +24,8 @@ class Service<T: Decodable> {
 	func jsonDecodeArray(data: Data) -> [T]? {
 		do {
 			return try JSONDecoder().decode([T].self, from: data)
-		} catch {
+		} catch let error {
+			print("Error @ Service/jsonDecodeArray: \(error)")
 			return nil
 		}
 	}
