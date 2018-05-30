@@ -29,7 +29,6 @@
 		14BF225220B955BF00266BAF /* WebsiteCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF225120B955BF00266BAF /* WebsiteCategory.swift */; };
 		14E7804D20B9AA720005483C /* WeekSearchStoreManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7804C20B9AA720005483C /* WeekSearchStoreManagerTest.swift */; };
 		14E7804E20BA9F460005483C /* PS4WeekReleases.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14A9549120B170AE0090F9B5 /* PS4WeekReleases.xcdatamodeld */; };
-		14E7805120BDD7DC0005483C /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7805020BDD7DC0005483C /* SnapshotHelper.swift */; };
 		14E7805520BDDA300005483C /* TestScreenshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E7805420BDDA300005483C /* TestScreenshots.swift */; };
 		1EF38320220D036F2C158FDF /* Pods_PS4WeekReleasesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */; };
 		33629A13415118ADDAD68497 /* Pods_PS4WeekReleasesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02D45561F47EE800C27712F /* Pods_PS4WeekReleasesTests.framework */; };
@@ -49,6 +48,7 @@
 		79CAC86020B80B5D00722869 /* ReleaseDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC85F20B80B5D00722869 /* ReleaseDateCell.swift */; };
 		79CAC86220B822C500722869 /* ImageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC86120B822C500722869 /* ImageRouter.swift */; };
 		79CAC86420B827F300722869 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAC86320B827F300722869 /* ImageService.swift */; };
+		79EBA41A20BEB00D000FD640 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBA41920BEB00D000FD640 /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,7 +97,6 @@
 		14BF225120B955BF00266BAF /* WebsiteCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteCategory.swift; sourceTree = "<group>"; };
 		14E7804C20B9AA720005483C /* WeekSearchStoreManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekSearchStoreManagerTest.swift; sourceTree = "<group>"; };
 		14E7804F20BDD7DB0005483C /* PS4WeekReleasesUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PS4WeekReleasesUITests-Bridging-Header.h"; sourceTree = "<group>"; };
-		14E7805020BDD7DC0005483C /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		14E7805420BDDA300005483C /* TestScreenshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScreenshots.swift; sourceTree = "<group>"; };
 		2F0D1E16B331496584FDDB2A /* Pods_PS4WeekReleasesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleasesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3BB2C9C8F7CE44ED3918FA /* Pods_PS4WeekReleases.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PS4WeekReleases.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +118,7 @@
 		79CAC85F20B80B5D00722869 /* ReleaseDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseDateCell.swift; sourceTree = "<group>"; };
 		79CAC86120B822C500722869 /* ImageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRouter.swift; sourceTree = "<group>"; };
 		79CAC86320B827F300722869 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		79EBA41920BEB00D000FD640 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		90BBDF5CC1D7F2E4D843ABB6 /* Pods-PS4WeekReleasesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4EDD68EE172A3E8B76C596F /* Pods-PS4WeekReleasesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesTests/Pods-PS4WeekReleasesTests.release.xcconfig"; sourceTree = "<group>"; };
 		B033B0A34F643B7D8FBFB85E /* Pods-PS4WeekReleasesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PS4WeekReleasesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PS4WeekReleasesUITests/Pods-PS4WeekReleasesUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -201,7 +201,7 @@
 		14A954AC20B170AE0090F9B5 /* PS4WeekReleasesUITests */ = {
 			isa = PBXGroup;
 			children = (
-				14E7805020BDD7DC0005483C /* SnapshotHelper.swift */,
+				79EBA41920BEB00D000FD640 /* SnapshotHelper.swift */,
 				14A954AF20B170AE0090F9B5 /* Info.plist */,
 				14E7804F20BDD7DB0005483C /* PS4WeekReleasesUITests-Bridging-Header.h */,
 				14E7805420BDDA300005483C /* TestScreenshots.swift */,
@@ -659,8 +659,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14E7805120BDD7DC0005483C /* SnapshotHelper.swift in Sources */,
 				14E7805520BDDA300005483C /* TestScreenshots.swift in Sources */,
+				79EBA41A20BEB00D000FD640 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
