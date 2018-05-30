@@ -9,5 +9,5 @@
 import Foundation
 
 struct Constants {
-	internal static let APIKey = "41eb34b6c4b919eb3a83baa38fe188b3"
+	internal static let APIKey = "3f8280c97f6575b2b716da903f1b016c"
 }
