@@ -16,7 +16,6 @@ class ReleaseDateCell: UICollectionViewCell {
 	// MARK: - Variables
     
 	@IBOutlet weak var nameLabel: UILabel!
-	//@IBOutlet weak var publisherLabel: UILabel!
 	@IBOutlet weak var imageLabel: UIImageView!
 	@IBOutlet weak var activityIndicator: NVActivityIndicatorView!
 	let imageService = ImageService()
@@ -49,12 +48,11 @@ class ReleaseDateCell: UICollectionViewCell {
 	
 	// MARK: - Public
 	
-	func configureWith(_ releaseDate: ReleaseDate) {
-		nameLabel.text = releaseDate.game.name
-		//summarylabel.text = releaseDate.game.summary
+	func configureWith(_ game: Game) {
+		nameLabel.text = game.name
 		
 		activityIndicator.startAnimating()
-        request = imageService.getImage(size: .coverBig, releaseDate: releaseDate, retinaSize: RetinaSize.retina2x)
+        request = imageService.getImage(size: .coverBig, game: game, retinaSize: RetinaSize.retina2x)
 	}
 }
 
