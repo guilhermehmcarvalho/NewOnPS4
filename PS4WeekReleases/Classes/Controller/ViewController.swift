@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 	fileprivate let cellId = "ReleaseDateCell"
 	let releaseDateService = ReleaseDateService()
 	@IBOutlet weak var collectionView: UICollectionView!
-	fileprivate var releases: [ReleaseDate] = []
+	fileprivate var games: [Game] = []
 	@IBOutlet weak var activityIndicator: NVActivityIndicatorView!
 	
 	// MARK: - View Controller
@@ -75,8 +75,8 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
 		
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId,
                                                          for: indexPath) as? ReleaseDateCell {
-            let release = releases[indexPath.row]
-            cell.configureWith(release)
+            let game = games[indexPath.row]
+            cell.configureWith(game)
 
             return cell
         }
@@ -85,11 +85,11 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
 	}
 	
 	func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-		return releases.count
+		return games.count
 	}
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        guard let url = releases[indexPath.row].game.getOficialWebsite() else { return }
+        guard let url = games[indexPath.row].getOficialWebsite() else { return }
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
 }
@@ -97,11 +97,11 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
 // MARK: - ReleaseDateServiceDelegate
 
 extension ViewController: ReleaseDateServiceDelegate {
-	func getPlaystationWeekDidComplete(releaseDates: [ReleaseDate]) {
-		releases = releaseDates
-		activityIndicator.stopAnimating()
-		self.collectionView.reloadData()
-	}
+    func getPlaystationWeekDidComplete(games: [Game]) {
+        self.games = games
+        activityIndicator.stopAnimating()
+        self.collectionView.reloadData()
+    }
 	
 	func getPlaystationWeekDidComplete(failure: ServiceFailureType) {
 		print(failure)
