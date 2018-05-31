@@ -63,14 +63,17 @@ If you don't have one, you can get it at https://api.igdb.com/
 - Install [SwiftLint](https://github.com/realm/SwiftLint#using-homebrew) using [Homebrew](https://brew.sh/)
 
 
-### Todos
+## Todos
 
  - Write MORE Tests
 
-License
-----
+## License
 
 MIT
+
+## Donation
+
+[![buymeacoffee](https://www.buymeacoffee.com/assets/img/custom_images/white_img.png)](https://www.buymeacoffee.com/gui)
 
 
 [dill]: <https://github.com/guilhermehmcarvalho/PS4WeekReleases.git>
