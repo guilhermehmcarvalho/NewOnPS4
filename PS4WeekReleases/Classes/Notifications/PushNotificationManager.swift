@@ -13,8 +13,17 @@ class PushNotificationManager {
 	
 	// MARK: - Variables
 	
-	let center = UNUserNotificationCenter.current()
+	var center: UNUserNotificationCenterProtocol = UNUserNotificationCenter.current()
 	let options: UNAuthorizationOptions = [.alert, .badge]
+	
+	// Allows injection for tests
+	convenience init(notificationCenter: UNUserNotificationCenterProtocol? = nil) {
+		self.init()
+		
+		if let notificationCenter = notificationCenter {
+			self.center = notificationCenter
+		}
+	}
 	
 	var notificationContent: UNMutableNotificationContent {
 		get {
@@ -48,7 +57,6 @@ class PushNotificationManager {
 			
 			if let error = error {
 				print("Error: \(error)")
-				errorHandler?()
 			}
 		}
 	}
