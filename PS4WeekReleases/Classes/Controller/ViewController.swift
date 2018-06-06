@@ -42,6 +42,8 @@ class ViewController: UIViewController {
 		activityIndicator.color = UIColor.App.yellow
 		activityIndicator.startAnimating()
 		releaseDateService.getPlaystationWeek()
+		
+		PushNotificationManager().authorizeAndSchedule()
     }
 	
 	override func viewWillAppear(_ animated: Bool) {
