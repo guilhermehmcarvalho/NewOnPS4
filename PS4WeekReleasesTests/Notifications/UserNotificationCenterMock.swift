@@ -15,8 +15,7 @@ class UserNotificationCenterMock: UNUserNotificationCenterProtocol {
 	var grantAuthorization = false
 	var error: Error?
 	
-	func requestAuthorization(options: UNAuthorizationOptions,
-							  completionHandler: @escaping (Bool, Error?) -> Void) {
+	func requestAuthorization(options: UNAuthorizationOptions, completionHandler: @escaping (Bool, Error?) -> Void) {
 		completionHandler(grantAuthorization, error)
 	}
 }

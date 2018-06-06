@@ -19,38 +19,36 @@ class PushNotificationManagerTest: XCTestCase {
         super.tearDown()
     }
     
-	func testAskForPermissionSuccessful(){
+	func testAskForPermissionSuccessful() {
 		let center = UserNotificationCenterMock()
 		center.grantAuthorization = true
 		let notificationManager = PushNotificationManager(notificationCenter: center)
-		var success:Bool? = nil
+		var success: Bool? = nil
 		notificationManager.askForAuthorization (successHandler: {
 			success = true
 		})
 		if success != nil {
 			XCTAssertTrue(success!)
-		}
-		else {
-			XCTFail()
+		} else {
+			XCTFail("Authorization result is nil")
 		}
 	}
 	
-	func testAskForPermissionUnsuccessful(){
+	func testAskForPermissionUnsuccessful() {
 		let center = UserNotificationCenterMock()
 		center.grantAuthorization = false
 		let notificationManager = PushNotificationManager(notificationCenter: center)
-		var success:Bool? = nil
+		var success: Bool? = nil
 		notificationManager.askForAuthorization(successHandler: {
 			success = true
-		}) {
+		}, errorHandler: {
 			success = false
-		}
+		})
 		
 		if success != nil {
 			XCTAssertFalse(success!)
-		}
-		else {
-			XCTFail()
+		} else {
+			XCTFail("Authorization result is nil")
 		}
 	}
     

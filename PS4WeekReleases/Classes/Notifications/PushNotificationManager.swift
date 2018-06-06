@@ -26,13 +26,11 @@ class PushNotificationManager {
 	}
 	
 	var notificationContent: UNMutableNotificationContent {
-		get {
-			let content = UNMutableNotificationContent()
-			content.title = "New this week"
-			content.body = "Check out what's new on Playstation 4 this week"
-			
-			return content
-		}
+		let content = UNMutableNotificationContent()
+		content.title = "New this week"
+		content.body = "Check out what's new on Playstation 4 this week"
+		
+		return content
 	}
 	
 	// MARK: - Public
@@ -43,8 +41,7 @@ class PushNotificationManager {
 		})
 	}
 	
-	public func askForAuthorization(successHandler: @escaping () -> Void,
-									errorHandler: (() -> Void)? = nil) {
+	public func askForAuthorization(successHandler: @escaping () -> Void, errorHandler: (() -> Void)? = nil) {
 		print("PushNotificationManager -> AskForAuthorization!")
 		center.requestAuthorization(options: options) { (success, error) in
 			if success {
